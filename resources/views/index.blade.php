@@ -74,7 +74,7 @@
                 <div class="navbar-nav mx-auto py-0">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
                     <a href="about.html" class="nav-item nav-link">Sobre</a>
-                    <a href="jogos.html" class="nav-item nav-link">Jogoss  </a>
+                    <a href="jogos" class="nav-item nav-link">Jogos  </a>
                     <a href="course.html" class="nav-item nav-link">Patrocinadores  </a>
                     
                     <a href="contact.html" class="nav-item nav-link">Redes Sociais</a>
