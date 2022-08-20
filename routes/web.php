@@ -22,3 +22,6 @@ Route::get('/index', function () {
 Route::get('/jogos', function () {
     return view('jogos');
 });
+Route::get('/sobre', function () {
+    return view('sobre');
+});
