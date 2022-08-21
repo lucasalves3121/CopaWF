@@ -93,7 +93,7 @@
                         <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Copa WF</h6>
                         <h1 class="display-4">Modalidades</h1>
                     </div>
-                    <p class="mb-4 pb-2">Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet.</p>
+                    <p class="mb-4 pb-2">Considerada um dos maiores eventos poliesportivos da cidade de Pacajus-Ce, a copa  da Escola Estadual de Educação Profissional José Maria Falcão, tem seu legado passado ano pós ano, sempre impressionando com sua vasta organização, abertura, esportes e premiações.</p>
                     <div class="d-flex mb-3">
                         <div class="btn-icon bg-primary mr-4">
                             <i class="fa fa-2x fa-graduation-cap text-white"></i>
@@ -139,7 +139,8 @@
             <div class="col-lg-6">
                 <div class="section-title text-center position-relative mb-4">
                     <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Desfile</h6>
-                    <h1 class="display-4">Musa e Muso</h1>
+                    <h1 class="display-4"><strong>Musa e Muso copa W.F</strong></h1>
+                    <h3>A beleza externa e interna da edição</h3>
                 </div>
             </div>
         </div>
@@ -319,7 +320,7 @@
                         <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Eventos</h6>
                         <h1 class="display-4">Abertura</h1>
                     </div>
-                    <p class="m-0">Dolor est dolores et nonumy sit labore dolores est sed rebum amet, justo duo ipsum sanctus dolore magna rebum sit et. Diam lorem ea sea at. Nonumy et at at sed justo est nonumy tempor. Vero sea ea eirmod, elitr ea amet diam ipsum at amet. Erat sed stet eos ipsum diam</p>
+                    <p class="m-0">A abertura oficial da copa, é um misto de grandes nomes do corpo docente, organizacional, técnico, cultural e esportivo. Um encontro tradicional anual de Professores, Alunos, Empresários, Jogadores e todos os públicos em geral da cidade que visam conhecer e prestigiar a abertura do jogos da edição! Uma noite memorável e extremamente organizada para que junto ao espírito esportivo, seja oficialmente feita a cerimônia de iniciação da copa.</p>
                 </div>
                 <div class="col-lg-7">
                     <div class="owl-carousel testimonial-carousel">

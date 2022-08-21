@@ -98,7 +98,7 @@
                     <a href="index.html" class="navbar-brand">
                         <h1 class="mt-n2 text-uppercase text-white"><i class="fas fa-futbol mr-3"></i>CopaWF</h1>
                     </a>
-                    <p class="m-0">Accusam nonumy clita sed rebum kasd eirmod elitr. Ipsum ea lorem at et diam est, tempor rebum ipsum sit ea tempor stet et consetetur dolores. Justo stet diam ipsum lorem vero clita diam</p>
+                    <p class="m-0">Em sua primeira e tão importante edição; a copa W.F vem para superar e impressionar o setor esportivo. E para isso: contamos com uma equipe de excelência, preparados e treinados para organizar, direcionar, criar, estruturar e ampliar todo os seguimentos e setores da edição. Sejam bem-vindos ao mundo da copa W.F</p>
                                         <div class="row"style= "margin-top:100px">
                 <div class="col-md-6 mb-5">
                     <h3 class="text-white mb-4">Get In Touch</h3>
@@ -112,16 +112,7 @@
                         <a class="text-white" href="#"><i class="fab fa-2x fa-instagram"></i></a>
                     </div>
                 </div>
-                <div class="col-md-5 mb-5">
-                    <h3 class="text-white mb-5">Our Courses</h3>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Web Design</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Apps Design</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Marketing</a>
-                        <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Research</a>
-                        <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>SEO</a>
-                    </div>
-                </div>
+                
                 </div>  
                 </div>
                 <div class="col-md-6 mb-6">
