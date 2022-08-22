@@ -65,7 +65,7 @@
     <!-- Navbar Start -->
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
-            <a href="index.html" class="navbar-brand ml-lg-3">
+            <a href="index" class="navbar-brand ml-lg-3">
                 <h1 class="m-0 text-uppercase text-primary"><i class="fas fa-futbol"></i> CopaWF</h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -73,14 +73,22 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav mx-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">Sobre</a>
+                    <a href="index" class="nav-item nav-link active">Home</a>
+                    <a href="sobre" class="nav-item nav-link">Sobre</a>
                     <a href="jogos" class="nav-item nav-link">Jogos  </a>
-                    <a href="course.html" class="nav-item nav-link">Patrocinadores  </a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Classificação</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="classfutmasc" class="dropdown-item">Futsal Masculino</a>
+                            <a href="feature.html" class="dropdown-item">Futsal Feminino</a>
+                            <a href="team.html" class="dropdown-item">Voley</a>
+                        </div>
+                    </div>
+                    <a href="patrocinadores" class="nav-item nav-link">Patrocinadores  </a>
                     
                     <a href="contact.html" class="nav-item nav-link">Redes Sociais</a>
                 </div>
-                <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Join Us</a>
+                <a href="loginadmin" class="btn btn-primary py-2 px-4 d-none d-lg-block">Login</a>
             </div>
         </nav>
     </div>

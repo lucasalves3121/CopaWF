@@ -61,19 +61,19 @@
                         <div class="col-3 px-0">
                             <div class="bg-primary text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">22</h1>
-                                <h6 class="text-uppercase text-white">Anos<span class="d-block">Courses</span></h6>
+                                <h6 class="text-uppercase text-white">Dia<span class="d-block">Pacajus</span></h6>
                             </div>
                         </div>
                         <div class="col-3 px-0">
                             <div class="bg-secondary text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">123</h1>
-                                <h6 class="text-uppercase text-white">Skilled<span class="d-block">Instructors</span></h6>
+                                <h1 class="text-white" data-toggle="counter-up">05</h1>
+                                <h6 class="text-uppercase text-white">Mês<span class="d-block">Ceará</span></h6>
                             </div>
                         </div>
                         <div class="col-3 px-0">
                             <div class="bg-warning text-center p-4">
-                                <h1 class="text-white" data-toggle="counter-up">1234</h1>
-                                <h6 class="text-uppercase text-white">Happy<span class="d-block">Students</span></h6>
+                                <h1 class="text-white" data-toggle="counter-up">2000</h1>
+                                <h6 class="text-uppercase text-white">Ano<span class="d-block">Geminiano</span></h6>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                         </div>
                         <div class="mt-n1">
                             <h4>Futsal</h4>
-                            <p>Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
+                            <p>Uma modalidade esportiva que foi adaptada do futebol de campo para as quadras.</p>
                         </div>
                     </div>
                     <div class="d-flex mb-3">
@@ -109,7 +109,16 @@
                         </div>
                         <div class="mt-n1">
                             <h4>Volei</h4>
-                            <p>Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
+                            <p>Esporte praticado entre duas equipes numa quadra retangular. Ela é dividida por uma rede colocada verticalmente sobre a linha central.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="btn-icon bg-success mr-4">
+                            <i class="fa fa-2x fa-certificate text-white"></i>
+                        </div>
+                        <div class="mt-n1">
+                            <h4>Ping Pong</h4>
+                            <p>Jogo em que duas pessoas usam raquetes de madeira para passar uma bolinha de um lado a outro de uma rede instalada em uma mesa.</p>
                         </div>
                     </div>
                     <div class="d-flex">
@@ -118,10 +127,11 @@
                         </div>
                         <div class="mt-n1">
                             <h4>Carimba</h4>
-                            <p class="m-0">Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
+                            <p class="m-0">Um esporte coletivo em que os jogadores tentam acertar os oponentes com uma ou mais bolas, evitando serem atingidos. </p>
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
                         <img class="position-absolute w-100 h-100" src="img/feature.jpg" style="object-fit: cover;">
@@ -250,10 +260,10 @@
             </div>
             <div class="owl-carousel team-carousel position-relative" style="padding: 0 30px;">
                 <div class="team-item">
-                    <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/lucas.jpg" alt="">
                     <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
+                        <h5 class="mb-3">Lucas Alves Rodrigues</h5>
+                        <p class="mb-2">Lider da equipe, Analista e Desenvolvedor Front-end</p>
                         <div class="d-flex justify-content-center">
                             <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -266,8 +276,8 @@
                 <div class="team-item">
                     <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
                     <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
+                        <h5 class="mb-3">Romulo Lima Fonseca</h5>
+                        <p class="mb-2">Analista de dados e Desenvolvedor Back-end</p>
                         <div class="d-flex justify-content-center">
                             <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>

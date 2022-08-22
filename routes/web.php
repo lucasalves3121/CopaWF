@@ -25,3 +25,12 @@ Route::get('/jogos', function () {
 Route::get('/sobre', function () {
     return view('sobre');
 });
+Route::get('/classfutmasc', function () {
+    return view('classfutmasc');
+});
+Route::get('/loginadmin', function () {
+    return view('loginadmin');
+});
+Route::get('/patrocinadores', function () {
+    return view('patrocinadores');
+});
