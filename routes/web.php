@@ -16,6 +16,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::middleware(['auth'])->group(function(){
+
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+        })->name('dashboard');
+
+});
+
+
 Route::get('/index', function () {
     return view('index');
 });
@@ -34,3 +45,5 @@ Route::get('/loginadmin', function () {
 Route::get('/patrocinadores', function () {
     return view('patrocinadores');
 });
+
+require __DIR__.'/auth.php';
