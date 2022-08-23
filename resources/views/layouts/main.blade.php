@@ -94,7 +94,7 @@
                         </div>
                         </div>
                         </div>
-                <a href="loginadmin" class="btn btn-primary py-2 px-4 d-none d-lg-block">Login</a>
+                <a href="login" class="btn btn-primary py-2 px-4 d-none d-lg-block">Login</a>
             </div>
         </nav>
     </div>
