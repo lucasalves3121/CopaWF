@@ -50,6 +50,7 @@
 													<option value="Futsal Feminino">Futsal Feminino</option>
 													<option value="Volei">Volei</option>
 													<option value="Ping Pong">Ping Pong</option>
+													<option value="Carimba">Carimba</option>
 													
 												</select>
 											</div>
