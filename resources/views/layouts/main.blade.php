@@ -76,6 +76,8 @@
                     <a href="index" class="nav-item nav-link active">Home</a>
                     <a href="sobre" class="nav-item nav-link">Sobre</a>
                     <a href="jogos" class="nav-item nav-link">Jogos  </a>
+                    
+                    <a href="patrocinadores" class="nav-item nav-link">Patrocinadores  </a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Classificação</a>
                         <div class="dropdown-menu m-0">
@@ -83,11 +85,15 @@
                             <a href="feature.html" class="dropdown-item">Futsal Feminino</a>
                             <a href="team.html" class="dropdown-item">Voley</a>
                         </div>
-                    </div>
-                    <a href="patrocinadores" class="nav-item nav-link">Patrocinadores  </a>
-                    
-                    <a href="contact.html" class="nav-item nav-link">Redes Sociais</a>
-                </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sistema de Votação</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="https://www.sisvotejmf.com/Sisvote2/Login/logincopinha.php" class="dropdown-item">Miss e Muso</a>
+                            <a href="https://www.sisvotejmf.com/Sisvote2/Login/logingremio.php" class="dropdown-item">Brasão Copa WF</a>
+                        </div>
+                        </div>
+                        </div>
                 <a href="loginadmin" class="btn btn-primary py-2 px-4 d-none d-lg-block">Login</a>
             </div>
         </nav>
@@ -162,6 +168,8 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+    <script src="js/icons.js" crossorigin="anonymous"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script> 

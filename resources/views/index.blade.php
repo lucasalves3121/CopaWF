@@ -96,7 +96,7 @@
                     <p class="mb-4 pb-2">Considerada um dos maiores eventos poliesportivos da cidade de Pacajus-Ce, a copa  da Escola Estadual de Educação Profissional José Maria Falcão, tem seu legado passado ano pós ano, sempre impressionando com sua vasta organização, abertura, esportes e premiações.</p>
                     <div class="d-flex mb-3">
                         <div class="btn-icon bg-primary mr-4">
-                            <i class="fa fa-2x fa-graduation-cap text-white"></i>
+                            <i class="fa fa-2x fa-solid fa-futbol text-white"></i>
                         </div>
                         <div class="mt-n1">
                             <h4>Futsal</h4>
@@ -104,8 +104,8 @@
                         </div>
                     </div>
                     <div class="d-flex mb-3">
-                        <div class="btn-icon bg-secondary mr-4">
-                            <i class="fa fa-2x fa-certificate text-white"></i>
+                        <div class="btn-icon bg-primary mr-4">
+                            <i class="fa fa-2x fa-solid fa-volleyball text-white"></i>
                         </div>
                         <div class="mt-n1">
                             <h4>Volei</h4>
@@ -113,8 +113,8 @@
                         </div>
                     </div>
                     <div class="d-flex mb-3">
-                        <div class="btn-icon bg-success mr-4">
-                            <i class="fa fa-2x fa-certificate text-white"></i>
+                        <div class="btn-icon bg-primary mr-4">
+                            <i class="fa fa-2x fa-table-tennis-paddle-ball text-white"></i>
                         </div>
                         <div class="mt-n1">
                             <h4>Ping Pong</h4>
@@ -122,8 +122,8 @@
                         </div>
                     </div>
                     <div class="d-flex">
-                        <div class="btn-icon bg-warning mr-4">
-                            <i class="fa fa-2x fa-book-reader text-white"></i>
+                        <div class="btn-icon bg-primary mr-4">
+                            <i class="fa fa-2x fa-brands fa-joget text-white"></i>
                         </div>
                         <div class="mt-n1">
                             <h4>Carimba</h4>
