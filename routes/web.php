@@ -20,10 +20,22 @@ Route::get('/', function () {
 
 Route::middleware(['auth'])->group(function(){
 
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-        })->name('dashboard');
-
+    Route::get('/admin', function () {
+        return view('admin/admin');
+        })->name('admin');
+        Route::get('/cadmodal', function () {
+            return view('admin/cadmodal');
+            })->name('cadmodal');
+            Route::get('/grupfutmasc', function () {
+                return view('admin/grupfutmasc');
+                })->name('grupfutmasc');    
+                Route::get('/grupfutfem', function () {
+                    return view('admin/grupfutfem');
+                    })->name('grupfutfem');    
+                    Route::get('/resultfutmasc', function () {
+                        return view('admin/resultfutmasc');
+                        })->name('resultfutmasc');  
+    
 });
 
 
@@ -38,9 +50,6 @@ Route::get('/sobre', function () {
 });
 Route::get('/classfutmasc', function () {
     return view('classfutmasc');
-});
-Route::get('/loginadmin', function () {
-    return view('loginadmin');
 });
 Route::get('/patrocinadores', function () {
     return view('patrocinadores');
