@@ -163,8 +163,7 @@ as faltas zeram ( porem precisa guarda essa infomações-->
                       </div>
                     </div>
                 </div>
-            </div>
-        </div>
+        
                       
           
          
