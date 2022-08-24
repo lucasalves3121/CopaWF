@@ -34,7 +34,13 @@ Route::middleware(['auth'])->group(function(){
                     })->name('grupfutfem');    
                     Route::get('/resultfutmasc', function () {
                         return view('admin/resultfutmasc');
-                        })->name('resultfutmasc');  
+                        })->name('resultfutmasc'); 
+                        Route::get('/cadjog', function () {
+                            return view('admin/cadjog');
+                            })->name('cadjog');  
+                            Route::get('/editjogo', function () {
+                                return view('admin/editjogo');
+                                })->name('editjogo');  
     
 });
 
