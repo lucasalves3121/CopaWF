@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PlayerController;
+use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,28 +22,32 @@ Route::get('/', function () {
 
 Route::middleware(['auth'])->group(function(){
 
-    Route::get('/admin', function () {
-        return view('admin/admin');
-        })->name('admin');
-        Route::get('/cadmodal', function () {
-            return view('admin/cadmodal');
-            })->name('cadmodal');
-            Route::get('/grupfutmasc', function () {
-                return view('admin/grupfutmasc');
-                })->name('grupfutmasc');    
-                Route::get('/grupfutfem', function () {
-                    return view('admin/grupfutfem');
-                    })->name('grupfutfem');    
-                    Route::get('/resultfutmasc', function () {
-                        return view('admin/resultfutmasc');
-                        })->name('resultfutmasc'); 
-                        Route::get('/cadjog', function () {
-                            return view('admin/cadjog');
-                            })->name('cadjog');  
-                            Route::get('/editjogo', function () {
-                                return view('admin/editjogo');
-                                })->name('editjogo');  
-    
+Route::get('/admin', function () {
+    return view('admin/admin');
+})->name('admin');
+
+    Route::get('/cadmodal', [TeamController::class, 'index'])->name('cadmodal');
+    Route::post('/time/novo', [TeamController::class, 'store'])->name('team.store');
+
+    Route::get('/grupfutmasc', function () {
+        return view('admin/grupfutmasc');
+    })->name('grupfutmasc');
+
+    Route::get('/grupfutfem', function () {
+        return view('admin/grupfutfem');
+    })->name('grupfutfem');
+
+    Route::get('/resultfutmasc', function () {
+        return view('admin/resultfutmasc');
+    })->name('resultfutmasc');
+
+    Route::get('/cadjog', [PlayerController::class, 'index'])->name('cadjog');
+    Route::post('/jogador/novo', [PlayerController::class, 'store'])->name('player.store');
+
+    Route::get('/editjogo', function () {
+        return view('admin/editjogo');
+    })->name('editjogo');
+
 });
 
 
