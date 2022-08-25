@@ -93,6 +93,13 @@
                             <a href="https://www.sisvotejmf.com/Sisvote2/Login/logingremio.php" class="dropdown-item">Brasão Copa WF</a>
                         </div>
                         </div>
+                        <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Galeria</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="classfutmasc" class="dropdown-item">Fotos</a>
+                            <a href="feature.html" class="dropdown-item">Videos</a>
+                        </div>
+                        </div>
                         </div>
                 <a href="login" class="btn btn-primary py-2 px-4 d-none d-lg-block">Login</a>
             </div>

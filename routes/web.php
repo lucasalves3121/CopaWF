@@ -41,6 +41,9 @@ Route::middleware(['auth'])->group(function(){
                             Route::get('/editjogo', function () {
                                 return view('admin/editjogo');
                                 })->name('editjogo');  
+                                Route::get('/sortefutmasc', function () {
+                                    return view('admin/sortefutmasc');
+                                    })->name('sortefutmasc');  
     
 });
 

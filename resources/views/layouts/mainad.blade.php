@@ -70,7 +70,7 @@
                   <li><a><i class="fa fa-home"></i> Times Futsal Masculino<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="grupfutmasc">Grupos</a></li>
-                      <li><a href="">Sorteio de Jogos</a></li>                      
+                      <li><a href="sortefutmasc">Sorteio de Jogos</a></li>                      
                       <li><a href="resultfutmasc">Resultados dos Jogos</a></li>
                     </ul>
                   </li>
