@@ -51,14 +51,23 @@ Route::middleware(['auth'])->group(function(){
 Route::get('/index', function () {
     return view('index');
 });
-Route::get('/jogos', function () {
-    return view('jogos');
+Route::get('/jogosmascga', function () {
+    return view('jogosmascga');
+});
+Route::get('/jogosmascgb', function () {
+    return view('jogosmascgb');
+});
+Route::get('/jogosfem', function () {
+    return view('jogosfem');
 });
 Route::get('/sobre', function () {
     return view('sobre');
 });
 Route::get('/classfutmasc', function () {
     return view('classfutmasc');
+});
+Route::get('/classfutfem', function () {
+    return view('classfutfem');
 });
 Route::get('/patrocinadores', function () {
     return view('patrocinadores');

@@ -42,9 +42,9 @@
         <div class="container ">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                             <div class="bg-primary mb-5 py-3">
-                             <h3 class="text-white py-3 px-4 m-0" style="text-align: center;">GRUPO A</h3>
+                             <h3 class="text-white py-3 px-4 m-0" style="text-align: center;">Feminino</h3>
                                 <h5 class="text-white py-12 px-4 m-0" style="text-align: center">16/09/2022 | 17:00h</h5>
                                 <div class="d-flex justify-content-between border-bottom px-4">
                                 <<h5 class="text-white col-lg-4"style="">New Killer</h5>                            
@@ -59,16 +59,10 @@
                                 <<h5 class="text-white col-lg-4"style="text-align: Center;">0   x   0</h5>
                                 <<h5 class="text-white col-lg-4"style="text-align: Center;">Falcões</h5>
                             </div>
-                            
                         </div>
-                     
-                        
-                        
                         <div class="py-3 px-4">
                             <a class="btn btn-block btn-secondary py-3 px-5" href="classif">Classificação</a>
-                        </div>
-                    
-                        
+                        </div>    
                     </div>
                     </div>
                     </div>

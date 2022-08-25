@@ -13,10 +13,10 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img/slide2.png" alt="First slide">
+      <img class="d-block w-100" src="img/slide1.png" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="img/slide1.png" alt="Second slide">
+      <img class="d-block w-100" src="img/slide2.png" alt="Second slide">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="img/slide3.png" alt="Third slide">
@@ -134,7 +134,7 @@
                 
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/feature.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="img/modalidade.png" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -150,7 +150,7 @@
                 <div class="section-title text-center position-relative mb-4">
                     <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Desfile</h6>
                     <h1 class="display-4"><strong>Musa e Muso copa W.F</strong></h1>
-                    <h3>A beleza externa e interna da edição</h3>
+                    <h3>A beleza externa e interna da edição.</h3>
                 </div>
             </div>
         </div>
@@ -336,12 +336,12 @@
                     <div class="owl-carousel testimonial-carousel">
                         <div class="bg-white p-5">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <p>Sed et elitr ipsum labore dolor diam, ipsum duo vero sed sit est est ipsum eos clita est ipsum. Est nonumy tempor at kasd. Sed at dolor duo ut dolor, et justo erat dolor magna sed stet amet elitr duo lorem</p>
+                            <p>A copa Jmf que hoje se intitula a W.F é um dos eventos mais esperados pelos alunos, é um mix de sensações ( ansiedade pra chegar a abertura , decisão de uniforme e raça pra jogar na semana, ganhar e levar o título) é impressionante o momento da torcida a sala unida positivamente pelo time , é lindo . A minha experiência com a copinha foi de muitas emoções … torcia por 2 times ( Az apimentadas time femenino da minha sala Administração de 2015 a 2017) ( Os New killers o time do meu amor Wesley da Silva Ferreira Informática de 2016 a 2018 , ele era o melhor … se estressava , era feroz e dava o sangue e os meninos tinham q acompanhar ele ,ficava sempre positivo nos fazia alguns medinhos com suas emoções a flor da pele mas no final acaba dando tudo certo .) a copa era um momento único .</p>
                             <div class="d-flex flex-shrink-0 align-items-center mt-4">
-                                <img class="img-fluid mr-4" src="img/testimonial-2.jpg" alt="">
+                                <img class="img-fluid mr-4" src="img/suelen.jpeg" alt="">
                                 <div>
-                                    <h5>Student Name</h5>
-                                    <span>Web Design</span>
+                                    <h5>Suély Martins Barbosa</h5>
+                                    <span>Ex-Aluna | Esposa de Wesley Ferreira</span>
                                 </div>
                             </div>
                         </div>

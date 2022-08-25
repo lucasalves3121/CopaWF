@@ -43,7 +43,7 @@
             <div class="row">
                 <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="img/sobre.jpeg" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -52,7 +52,7 @@
                         <h3 class="display-4">Wesley da Silva Ferreira</h3>
                         <p class=""><strong> 22-05-2000 a 08-05-2022</strong></p>
                     </div>
-                    <p>
+                    <p style="text-align: justify;">
 No dia 22 de maio de 2000, nasce um brasileiro, cearense, geminiano e natural da cidade de Pacajus, Wesley da Silva Ferreira. Criado por seus avós paternos, Dona Lucila e Cosmo Cesário, filho de Ana Lucia e João Roberto. Idealizador e jogador do time de futebol: New Killers da turma do curso técnico de informática dos anos (2016 - 2018). Capitão e blusa 7 do time, jogava como fixo e sua principal e forte característica era sua defesa dentro de quadras, campos e arenas. Ganha sua primeira Liga JMF no ano de 2017, deixando seu time em primeiro lugar. Em copa chega durante três anos consecutivos as semi finais dos jogos.
 Acreditando sempre em "Uma luta por dia", transformou sua coragem e esforço na razão para viajar, visitar e conhecer lugares lindos e significativos, muito cedo, realizou sua primeira viagem a Jeriquacara-CE, onde o sol e as dunas contemplaram seu amor e sua vontade de sempre acreditar que valia a pena cada esforço. Praia, cachoeiras, shoppings, cinemas, sua passarela e marcante calçada da beira mar que se tornou seu lugar particular para praticar também sua desenvoltura nos patins e admirar a cultura do calçadão. Flamenguista de alma e coração, o geminiano tinha sua paixão pelo futebol flamenguista estampada nas diversas blusas de time que colecionava e tanto desejava, assim como também, fã de Mamonas assassinas e Michael Jackson, tinha uma admiração total pelo MC Kevin, valorizava o trabalho de Tiago Ventura, Winderson Nunes, Bráulio Bessa. Apaixonado pela marca Yamaha, e que também sonhava com o belíssimo carro Fiat uno mille, compreendia que cada sonho poderia se tornar realidade se a fé e a força de vontade estivessem sempre presentes, o que já se tornava seu grande alicerce para conquistar sua tão desejada e sonhada casa. Crente que Deus sempre existiu em seus caminhos e em seus planos, era grande devoto do salmo 91 e mantinha a esperança e opinião acerca das melhorias do Brasil e do mundo.
 "Subindo os degraus da vida, pensar em desistir não é uma opção. Vamos até o fim; com garra, força e determinação." 
@@ -98,14 +98,14 @@ Acreditando sempre em "Uma luta por dia", transformou sua coragem e esforço na 
                             <i class="fa fa-2x fa-book-reader text-white"></i>
                         </div>
                         <div class="mt-n1">
-                            <h4>Raça</h4>
-                            <p class="m-0">Labore rebum duo est Sit dolore eos sit tempor eos stet, vero vero clita magna kasd no nonumy et eos dolor magna ipsum.</p>
+                            <h4>Força de Vontade</h4>
+                            <p class="m-0">Querer algo e lutar por aquilo que é almejado de forma intensa e sem medo.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/feature.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="img/sobretime.jpeg" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
