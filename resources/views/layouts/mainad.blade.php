@@ -19,7 +19,7 @@
     <link href="/../vendors/nprogress/nprogress.css" rel="stylesheet">
     <!-- iCheck -->
     <link href="/../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
-	
+
     <!-- bootstrap-progressbar -->
     <link href="/../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
     <!-- JQVMap -->
@@ -29,6 +29,12 @@
 
     <!-- Custom Theme Style -->
     <link href="/../build/css/custom.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
+  <link href="../vendors/pnotify/dist/pnotify.css" rel="stylesheet">
+  <link href="../vendors/pnotify/dist/pnotify.buttons.css" rel="stylesheet">
+  <link href="../vendors/pnotify/dist/pnotify.nonblock.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
   </head>
 
   <body class="nav-md">
@@ -49,7 +55,7 @@
               </div>
               <div class="profile_info">
                 <span>Bem Vindo,</span>
-                <h2>Nome que estiver no banco</h2>
+                <h2>{{ auth()->user()->name }}</h2>
               </div>
             </div>
             <!-- /menu profile quick info -->
@@ -63,44 +69,44 @@
                 <ul class="nav side-menu">
                 <li><a><i class="fa fa-home"></i> Cadastro<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="cadmodal">Cadastrar Time</a></li>                      
+                      <li><a href="cadmodal">Cadastrar Time</a></li>
                       <li><a href="cadjog">Cadastrar Jogadores</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-home"></i> Times Futsal Masculino<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="grupfutmasc">Grupos</a></li>
-                      <li><a href="sortefutmasc">Sorteio de Jogos</a></li>                      
+                      <li><a href="sortefutmasc">Sorteio de Jogos</a></li>
                       <li><a href="resultfutmasc">Resultados dos Jogos</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-home"></i> Times Futsal Feminino<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="grupfutfem">Grupos</a></li>
-                      <li><a href="index3.html">Sorteio de Jogos</a></li>                      
+                      <li><a href="index3.html">Sorteio de Jogos</a></li>
                       <li><a href="index3.html">Resultados dos Jogos</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-home"></i>Voley Misto<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="index3.html">Sorteio de Jogos</a></li>                      
+                      <li><a href="index3.html">Sorteio de Jogos</a></li>
                       <li><a href="index3.html">Resultados dos Jogos</a></li>
                     </ul>
                   </li><li><a><i class="fa fa-home"></i>Ping Pong<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="index3.html">Sorteio de Jogos</a></li>                      
+                      <li><a href="index3.html">Sorteio de Jogos</a></li>
                       <li><a href="index3.html">Resultados dos Jogos</a></li>
                     </ul>
                   </li>
-                  </li><li><a><i class="fa fa-home"></i>Carimba<span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu"> 
-                      <li><a href="index3.html">Sorteio de Jogos</a></li>                      
+                  <li><a><i class="fa fa-home"></i>Carimba<span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="index3.html">Sorteio de Jogos</a></li>
                       <li><a href="index3.html">Resultados dos Jogos</a></li>
                     </ul>
-                  </li>  
+                  </li>
                 </ul>
               </div>
-              
+
 
             </div>
             <!-- /sidebar menu -->
@@ -144,7 +150,7 @@
                       </a>
                   <a class="dropdown-item"  href="javascript:;">Help</a>
                   <form action="{{ route('logout') }}" method="post">
-                  @csrf  
+                  @csrf
                   <button type="submit"><i class="fa fa-sign-out pull-right"></i> Sair do Sistema</button>
                 </form>
                   </div>
@@ -219,10 +225,12 @@
           </div>
         </div>
         <!-- /top navigation -->
+        @yield('content')
+      </div>
+    </div>
 
-     
-@yield('content')
 
+@yield('modals')
     <!-- jQuery -->
     <script src="/../vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
@@ -241,6 +249,9 @@
     <script src="/../vendors/iCheck/icheck.min.js"></script>
     <!-- Skycons -->
     <script src="/../vendors/skycons/skycons.js"></script>
+
+  <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
     <!-- Flot -->
     <script src="/../vendors/Flot/jquery.flot.js"></script>
     <script src="/../vendors/Flot/jquery.flot.pie.js"></script>
@@ -260,9 +271,14 @@
     <!-- bootstrap-daterangepicker -->
     <script src="/../vendors/moment/min/moment.min.js"></script>
     <script src="/../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
-
+      <script src="../vendors/pnotify/dist/pnotify.js"></script>
+      <script src="../vendors/pnotify/dist/pnotify.buttons.js"></script>
+      <script src="../vendors/pnotify/dist/pnotify.nonblock.js"></script>
     <!-- Custom Theme Scripts -->
     <script src="/../build/js/custom.min.js"></script>
 	<script src="/../js/time.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    @yield('javascript')
   </body>
 </html>

@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\PlayerController;
+use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,28 +25,36 @@ Route::middleware(['auth'])->group(function(){
     Route::get('/admin', function () {
         return view('admin/admin');
         })->name('admin');
-        Route::get('/cadmodal', function () {
-            return view('admin/cadmodal');
-            })->name('cadmodal');
-            Route::get('/grupfutmasc', function () {
-                return view('admin/grupfutmasc');
-                })->name('grupfutmasc');    
-                Route::get('/grupfutfem', function () {
-                    return view('admin/grupfutfem');
-                    })->name('grupfutfem');    
-                    Route::get('/resultfutmasc', function () {
-                        return view('admin/resultfutmasc');
-                        })->name('resultfutmasc'); 
-                        Route::get('/cadjog', function () {
-                            return view('admin/cadjog');
-                            })->name('cadjog');  
-                            Route::get('/editjogo', function () {
-                                return view('admin/editjogo');
-                                })->name('editjogo');  
-                                Route::get('/sortefutmasc', function () {
-                                    return view('admin/sortefutmasc');
-                                    })->name('sortefutmasc');  
-    
+
+    Route::get('/cadmodal', [TeamController::class, 'index'])->name('cadmodal');
+    Route::get('/time/find/{team}', [TeamController::class, 'find'])->name('teams.find');
+    Route::put('/time/edit/{team}', [TeamController::class, 'update'])->name('teams.update');
+    Route::delete('/time/delete/{team}', [TeamController::class, 'delete'])->name('teams.delete');
+    Route::post('/time/novo', [TeamController::class, 'store'])->name('team.store');
+    Route::post('/jogador/vincular', [TeamController::class, 'tapPlayer'])->name('team.tap-player');
+
+    Route::get('/grupfutmasc', function () {
+        return view('admin/grupfutmasc');
+    })->name('grupfutmasc');
+
+    Route::get('/grupfutfem', function () {
+        return view('admin/grupfutfem');
+    })->name('grupfutfem');
+
+    Route::get('/resultfutmasc', function () {
+        return view('admin/resultfutmasc');
+    })->name('resultfutmasc');
+
+    Route::get('/cadjog', [PlayerController::class, 'index'])->name('cadjog');
+    Route::post('/jogador/novo', [PlayerController::class, 'store'])->name('player.store');
+
+    Route::get('/editjogo', function () {
+        return view('admin/editjogo');
+    })->name('editjogo');
+
+    Route::get('/sortefutmasc', function () {
+        return view('admin/sortefutmasc');
+    })->name('sortefutmasc');
 });
 
 
