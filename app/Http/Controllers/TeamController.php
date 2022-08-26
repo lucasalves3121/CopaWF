@@ -66,4 +66,13 @@ class TeamController extends Controller
 
         return response()->json(['unlinked']);
     }
+
+    public function delete($team)
+    {
+        Team::find($team)->delete();
+
+        return redirect()->route('cadmodal')->with([
+            'success' => 'Time deletado com sucesso!'
+        ]);
+    }
 }

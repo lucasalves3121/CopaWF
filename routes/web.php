@@ -29,6 +29,7 @@ Route::middleware(['auth'])->group(function(){
     Route::get('/cadmodal', [TeamController::class, 'index'])->name('cadmodal');
     Route::get('/time/find/{team}', [TeamController::class, 'find'])->name('teams.find');
     Route::put('/time/edit/{team}', [TeamController::class, 'update'])->name('teams.update');
+    Route::delete('/time/delete/{team}', [TeamController::class, 'delete'])->name('teams.delete');
     Route::post('/time/novo', [TeamController::class, 'store'])->name('team.store');
     Route::post('/jogador/vincular', [TeamController::class, 'tapPlayer'])->name('team.tap-player');
 

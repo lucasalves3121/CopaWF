@@ -130,7 +130,11 @@
                                                 <td>{{ $team->players()->count() }}</td>
                                                 <td>
                                                     <button class="btn btn-warning" onclick="editTeam({{ $team->id }})">Editar</button>
-                                                    <button class="btn btn-danger">Deletar</button>
+                                                    <form action="{{ route('teams.delete', $team->id) }}" method="post">
+                                                        @csrf
+                                                        <input type="hidden" name="_method" value="delete" />
+                                                        <button class="btn btn-danger">Deletar</button>
+                                                    </form>
                                                 </td>
                                             </tr>
                                         @endforeach
