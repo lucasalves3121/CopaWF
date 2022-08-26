@@ -13,10 +13,10 @@ class CreateUserTeamTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_team', function (Blueprint $table) {
+        Schema::create('player_team', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('player_id')->references('id')->on('players');
-            $table->foreignId('team_id')->references('id')->on('players');
+            $table->foreignId('player_id')->references('id')->on('players')->cascadeOnUpdate()->cascadeOnDelete();
+            $table->foreignId('team_id')->references('id')->on('players')->cascadeOnUpdate()->cascadeOnDelete();
             $table->timestamps();
         });
     }
@@ -28,6 +28,6 @@ class CreateUserTeamTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('user_team');
+        Schema::dropIfExists('player_team');
     }
 }

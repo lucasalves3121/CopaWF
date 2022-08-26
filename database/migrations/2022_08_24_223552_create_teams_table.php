@@ -18,7 +18,7 @@ class CreateTeamsTable extends Migration
             $table->string('image')->nullable();
             $table->string('name');
             $table->smallInteger('modality');
-            $table->char('gender');
+            $table->char('gender', 1);
             $table->string('muse');
             $table->timestamps();
         });

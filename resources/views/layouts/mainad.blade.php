@@ -34,6 +34,7 @@
   <link href="../vendors/pnotify/dist/pnotify.css" rel="stylesheet">
   <link href="../vendors/pnotify/dist/pnotify.buttons.css" rel="stylesheet">
   <link href="../vendors/pnotify/dist/pnotify.nonblock.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
   </head>
 
   <body class="nav-md">
@@ -97,7 +98,7 @@
                       <li><a href="index3.html">Resultados dos Jogos</a></li>
                     </ul>
                   </li>
-                  </li><li><a><i class="fa fa-home"></i>Carimba<span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-home"></i>Carimba<span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="index3.html">Sorteio de Jogos</a></li>
                       <li><a href="index3.html">Resultados dos Jogos</a></li>
@@ -224,8 +225,12 @@
           </div>
         </div>
         <!-- /top navigation -->
-@yield('content')
+        @yield('content')
+      </div>
+    </div>
 
+
+@yield('modals')
     <!-- jQuery -->
     <script src="/../vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
@@ -272,6 +277,7 @@
     <!-- Custom Theme Scripts -->
     <script src="/../build/js/custom.min.js"></script>
 	<script src="/../js/time.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     @yield('javascript')
   </body>

@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\PlayerController;
 use App\Http\Controllers\TeamController;
-use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,7 +27,10 @@ Route::middleware(['auth'])->group(function(){
         })->name('admin');
 
     Route::get('/cadmodal', [TeamController::class, 'index'])->name('cadmodal');
+    Route::get('/time/find/{team}', [TeamController::class, 'find'])->name('teams.find');
+    Route::put('/time/edit/{team}', [TeamController::class, 'update'])->name('teams.update');
     Route::post('/time/novo', [TeamController::class, 'store'])->name('team.store');
+    Route::post('/jogador/vincular', [TeamController::class, 'tapPlayer'])->name('team.tap-player');
 
     Route::get('/grupfutmasc', function () {
         return view('admin/grupfutmasc');

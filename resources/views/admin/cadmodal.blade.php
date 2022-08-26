@@ -40,7 +40,6 @@
                                             </div>
                                         </div>
 
-
                                         <div class="field item form-group">
 											<label class="col-form-label col-md-3 col-sm-3  label-align">Modalidade</label>
 											<div class="col-md-6 col-sm-6 ">
@@ -71,9 +70,19 @@
 											<label class="col-form-label col-md-3 col-sm-3  label-align">Nome da Musa<span class="required">*</span></label>
 											<div class="col-md-6 col-sm-6">
 												<input class="form-control" type="text" id="" name="muse"  title="" required />
-												</span>
 											</div>
 										</div>
+
+                                        <div class="field item form-group">
+                                            <label class="col-form-label col-md-3 col-sm-3  label-align">Jogadores<span class="required">*</span></label>
+                                            <div class="col-md-6 col-sm-6">
+                                                <select class="players" name="players[]" multiple="multiple" required>
+                                                    @foreach($players as $player)
+                                                        <option value="{{ $player->id }}">{{ $player->name }} - Nº {{ $player->number }}</option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
+                                        </div>
 
                                         <div class="ln_solid">
                                             <div class="form-group">
@@ -99,7 +108,7 @@
                                     </ul>
                                     <div class="clearfix"></div>
                                 </div>
-                                <div class="x_content">
+                                <div class="x_content table-responsive">
                                     <table id="example" class="table table-striped table-bordered" style="width:100%">
                                         <thead>
                                         <tr>
@@ -107,6 +116,7 @@
                                             <th>Modalidade</th>
                                             <th>Gênero</th>
                                             <th>Musa</th>
+                                            <th>Número de jogadores</th>
                                             <th>Ações</th>
                                         </tr>
                                         </thead>
@@ -114,11 +124,12 @@
                                         @foreach($teams as $team)
                                             <tr>
                                                 <td>{{ $team->name }}</td>
-                                                <td>{{ $team->modality }}</td>
-                                                <td>{{ $team->gender }}</td>
+                                                <td>{{ $team->modality_name }}</td>
+                                                <td>{{ $team->gender_name }}</td>
                                                 <td>{{ $team->muse }}</td>
+                                                <td>{{ $team->players()->count() }}</td>
                                                 <td>
-                                                    <button class="btn btn-warning">Editar</button>
+                                                    <button class="btn btn-warning" onclick="editTeam({{ $team->id }})">Editar</button>
                                                     <button class="btn btn-danger">Deletar</button>
                                                 </td>
                                             </tr>
@@ -134,17 +145,58 @@
             @endsection
 
 
+            @section('modals')
+                @include('admin.components.editmodal')
+            @endsection
+
 @section('javascript')
     <script>
-        @if(\Illuminate\Support\Facades\Session::exists('success'))
+        $(document).ready(function() {
+            $('.players').select2({
+                width: '100%',
+                placeholder: 'Selecione os jogadores'
+            });
+        });
+
+        @if(Session::exists('success'))
         $(document).ready(function (){
             new PNotify({
                 title: 'Sucesso!',
-                text: 'O time foi cadastrado!',
+                text: '{{ Session::get('success') }}!',
                 type: 'success',
                 styling: 'bootstrap3'
             })
         });
         @endif
+
+        function editTeam(team_id){
+            let url = '{{ route("teams.find", ":id") }}';
+            url = url.replace(':id', team_id);
+            $.ajax({
+                url: url,
+            }).done(function (response) {
+                for (let key in response){
+                    $('#'+key).val(response[key])
+                }
+
+                let players = response['players'].map((player) => {
+                    return player['id']
+                });
+
+                $('#players').val(players).trigger('change')
+                $('#team_id').val(team_id)
+            });
+
+            $('#edit_team').modal('show');
+        }
+
+        $('#form_edit').submit(function(e){
+            $.ajax({
+                url: "{{ route('teams.update', ':id') }}".replace(':id', $('#team_id').val()),
+                method: 'PUT',
+                data: $(this).serialize(),
+            })
+        })
+
     </script>
 @endsection
