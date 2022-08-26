@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\PlayerController;
 use App\Http\Controllers\TeamController;
+use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,9 +23,9 @@ Route::get('/', function () {
 
 Route::middleware(['auth'])->group(function(){
 
-Route::get('/admin', function () {
-    return view('admin/admin');
-})->name('admin');
+    Route::get('/admin', function () {
+        return view('admin/admin');
+        })->name('admin');
 
     Route::get('/cadmodal', [TeamController::class, 'index'])->name('cadmodal');
     Route::post('/time/novo', [TeamController::class, 'store'])->name('team.store');
@@ -48,20 +49,32 @@ Route::get('/admin', function () {
         return view('admin/editjogo');
     })->name('editjogo');
 
+    Route::get('/sortefutmasc', function () {
+        return view('admin/sortefutmasc');
+    })->name('sortefutmasc');
 });
 
 
 Route::get('/index', function () {
     return view('index');
 });
-Route::get('/jogos', function () {
-    return view('jogos');
+Route::get('/jogosmascga', function () {
+    return view('jogosmascga');
+});
+Route::get('/jogosmascgb', function () {
+    return view('jogosmascgb');
+});
+Route::get('/jogosfem', function () {
+    return view('jogosfem');
 });
 Route::get('/sobre', function () {
     return view('sobre');
 });
 Route::get('/classfutmasc', function () {
     return view('classfutmasc');
+});
+Route::get('/classfutfem', function () {
+    return view('classfutfem');
 });
 Route::get('/patrocinadores', function () {
     return view('patrocinadores');

@@ -163,14 +163,7 @@ as faltas zeram ( porem precisa guarda essa infomações-->
                       </div>
                     </div>
                 </div>
-        
-                      
-          
-         
-          
-          
-
-            <div class="clearfix"></div>
+                <div class="clearfix"></div>
 
             <div class="row" style="display: block;">
               <div class="col-md-6 col-sm-6  ">

@@ -75,14 +75,21 @@
                 <div class="navbar-nav mx-auto py-0">
                     <a href="index" class="nav-item nav-link active">Home</a>
                     <a href="sobre" class="nav-item nav-link">Sobre</a>
-                    <a href="jogos" class="nav-item nav-link">Jogos  </a>
                     
                     <a href="patrocinadores" class="nav-item nav-link">Patrocinadores  </a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Jogos</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="jogosmascga" class="dropdown-item">Futsal Masc Grupo A</a>
+                            <a href="jogosmascgb" class="dropdown-item">Futsal Masc Grupo B</a>
+                            <a href="jogosfem" class="dropdown-item">Futsal feminino</a>
+                        </div>
+                        </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Classificação</a>
                         <div class="dropdown-menu m-0">
                             <a href="classfutmasc" class="dropdown-item">Futsal Masculino</a>
-                            <a href="feature.html" class="dropdown-item">Futsal Feminino</a>
+                            <a href="classfutfem    " class="dropdown-item">Futsal Feminino</a>
                             <a href="team.html" class="dropdown-item">Voley</a>
                         </div>
                         </div>
@@ -91,6 +98,13 @@
                         <div class="dropdown-menu m-0">
                             <a href="https://www.sisvotejmf.com/Sisvote2/Login/logincopinha.php" class="dropdown-item">Miss e Muso</a>
                             <a href="https://www.sisvotejmf.com/Sisvote2/Login/logingremio.php" class="dropdown-item">Brasão Copa WF</a>
+                        </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Galeria</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="classfutmasc" class="dropdown-item">Fotos</a>
+                            <a href="feature.html" class="dropdown-item">Videos</a>
                         </div>
                         </div>
                         </div>
@@ -115,7 +129,7 @@
                     <p class="m-0">Em sua primeira e tão importante edição; a copa W.F vem para superar e impressionar o setor esportivo. E para isso: contamos com uma equipe de excelência, preparados e treinados para organizar, direcionar, criar, estruturar e ampliar todo os seguimentos e setores da edição. Sejam bem-vindos ao mundo da copa W.F</p>
                                         <div class="row"style= "margin-top:100px">
                 <div class="col-md-6 mb-5">
-                    <h3 class="text-white mb-4">Get In Touch</h3>
+                    <h3 class="text-white mb-4">Informações</h3>
                     <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
                     <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
                     <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
