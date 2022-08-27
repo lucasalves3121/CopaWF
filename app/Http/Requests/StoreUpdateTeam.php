@@ -26,7 +26,7 @@ class StoreUpdateTeam extends FormRequest
     {
         return [
             'name' => 'required|min:2|max:255',
-            'modality' => 'required|integer|min:1|max:5',
+            'modality' => 'required|integer|min:1|max:6',
             'gender' => [
                 'required',
                 'string',

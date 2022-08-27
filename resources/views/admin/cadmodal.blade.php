@@ -49,7 +49,8 @@
 													<option value="2">Futsal Feminino</option>
 													<option value="3">Volei</option>
 													<option value="4">Ping Pong</option>
-													<option value="5">Carimba</option>
+													<option value="5">Carimba</option>                                                    
+													<option value="6">FutMesa</option> 
 												</select>
 											</div>
 										</div>

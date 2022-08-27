@@ -99,6 +99,11 @@
             <!-- /page content -->
             @endsection
 
+
+@section('modals')
+    @include('admin.components.editmodal')
+@endsection
+
 @section('javascript')
     <script>
         @if(\Illuminate\Support\Facades\Session::exists('success'))
