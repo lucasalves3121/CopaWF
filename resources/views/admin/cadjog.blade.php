@@ -84,7 +84,11 @@
                                                     <td>{{ $player->number }}</td>
                                                     <td>
                                                         <button class="btn btn-warning">Editar</button>
+                                                        <form action="{{ route('player.delete', $player->id) }}" method="post">
+                                                        @csrf
+                                                        <input type="hidden" name="_method" value="delete" />
                                                         <button class="btn btn-danger">Deletar</button>
+                                                    </form>
                                                     </td>
                                                 </tr>
                                             @endforeach

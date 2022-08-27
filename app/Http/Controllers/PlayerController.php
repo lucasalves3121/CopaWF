@@ -25,4 +25,13 @@ class PlayerController extends Controller
             'success' => 'Jogador cadastrado com sucesso!'
         ]);
     }
+    
+    public function destroy(Player $player)
+    {
+        $player->delete();
+
+        return redirect()->route('cadjog')->with([
+            'success' => 'Jogador deletado com sucesso!'
+        ]);
+    }
 }

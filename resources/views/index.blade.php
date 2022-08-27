@@ -130,6 +130,7 @@
                             <p class="m-0">Um esporte coletivo em que os jogadores tentam acertar os oponentes com uma ou mais bolas, evitando serem atingidos. </p>
                         </div>
                     </div>
+                    
                 </div>
                 
                 <div class="col-lg-5" style="min-height: 500px;">

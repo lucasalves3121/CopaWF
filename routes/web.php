@@ -47,6 +47,7 @@ Route::middleware(['auth'])->group(function(){
 
     Route::get('/cadjog', [PlayerController::class, 'index'])->name('cadjog');
     Route::post('/jogador/novo', [PlayerController::class, 'store'])->name('player.store');
+    Route::delete('/jogador/deletar/{player}', [PlayerController::class, 'destroy'])->name('player.delete');
 
     Route::get('/editjogo', function () {
         return view('admin/editjogo');
