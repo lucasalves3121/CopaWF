@@ -67,43 +67,27 @@
               <div class="menu_section">
                 <h3>Menu</h3>
                 <ul class="nav side-menu">
-                <li><a><i class="fa fa-home"></i> Cadastro<span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="cadmodal">Cadastrar Time</a></li>
-                      <li><a href="cadjog">Cadastrar Jogadores</a></li>
-                    </ul>
-                  </li>
-                  <li><a><i class="fa fa-home"></i> Times Futsal Masculino<span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="grupfutmasc">Grupos</a></li>
-                      <li><a href="sortefutmasc">Sorteio de Jogos</a></li>
-                      <li><a href="resultfutmasc">Resultados dos Jogos</a></li>
-                    </ul>
-                  </li>
-                  <li><a><i class="fa fa-home"></i> Times Futsal Feminino<span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="grupfutfem">Grupos</a></li>
-                      <li><a href="index3.html">Sorteio de Jogos</a></li>
-                      <li><a href="index3.html">Resultados dos Jogos</a></li>
-                    </ul>
-                  </li>
-                  <li><a><i class="fa fa-home"></i>Voley Misto<span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="index3.html">Sorteio de Jogos</a></li>
-                      <li><a href="index3.html">Resultados dos Jogos</a></li>
-                    </ul>
-                  </li><li><a><i class="fa fa-home"></i>Ping Pong<span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="index3.html">Sorteio de Jogos</a></li>
-                      <li><a href="index3.html">Resultados dos Jogos</a></li>
-                    </ul>
-                  </li>
-                  <li><a><i class="fa fa-home"></i>Carimba<span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="index3.html">Sorteio de Jogos</a></li>
-                      <li><a href="index3.html">Resultados dos Jogos</a></li>
-                    </ul>
-                  </li>
+                    <li><a><i class="fa fa-home"></i> Cadastro<span class="fa fa-chevron-down"></span></a>
+                        <ul class="nav child_menu">
+                            <li><a href="cadmodal">Cadastrar Time</a></li>
+                            <li><a href="cadjog">Cadastrar Jogadores</a></li>
+                        </ul>
+                    </li>
+
+                    @foreach(getAllModalities() as $modality)
+                        <li>
+                            <a>
+                                <i class="fa fa-home"></i> {{ $modality->name }}<span class="fa fa-chevron-down"></span>
+                            </a>
+
+                            <ul class="nav child_menu">
+                                <li><a href="{{ route('groups') }}">Grupos</a></li>
+                                <li><a href="{{ route('sortitions') }}">Sorteio de Jogos</a></li>
+                                <li><a href="{{ route('results') }}">Resultados dos Jogos</a></li>
+                            </ul>
+                        </li>
+                    @endforeach
+
                 </ul>
               </div>
 
@@ -113,7 +97,7 @@
 
             <!-- /menu footer buttons -->
             <div class="sidebar-footer hidden-small">
-              <a data-toggle="tooltip" data-placement="top" title="Settings">
+              <a data-toggle="tooltip" href="{{ route('settings') }}" data-placement="top" title="Configurações">
                 <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
               </a>
               <a data-toggle="tooltip" data-placement="top" title="FullScreen">
