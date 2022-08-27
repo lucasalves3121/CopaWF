@@ -15,6 +15,22 @@ class PlayerController extends Controller
         return view('admin/cadjog', compact('players'));
     }
 
+    public function find(Player $player)
+    {
+        return response()->json($player);
+    }
+
+    public function update (Player $player, StoreUpdatePlayer $request)
+    {
+        $data = $request->validated();
+
+        $player->update($data);
+
+        return redirect()->route('cadjog')->with([
+            'success' => 'Jogador editado com sucesso!'
+        ]);
+    }
+
     public function store(StoreUpdatePlayer $request)
     {
         $data = $request->validated();
@@ -25,7 +41,7 @@ class PlayerController extends Controller
             'success' => 'Jogador cadastrado com sucesso!'
         ]);
     }
-    
+
     public function destroy(Player $player)
     {
         $player->delete();

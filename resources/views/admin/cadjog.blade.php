@@ -46,13 +46,11 @@
                                             </div>
                                         </div>
 
-                                        <div class="ln_solid">
                                             <div class="form-group">
-                                                <div class="col-md-6 offset-md-3">
+                                                <div class="col-12 d-flex justify-content-center mt-4">
                                                     <button type='submit' class="btn btn-primary">Gravar</button>
                                                 </div>
                                             </div>
-                                        </div>
                                     </form>
                                 </div>
 
@@ -83,7 +81,7 @@
                                                     <td>{{ $player->name }}</td>
                                                     <td>{{ $player->number }}</td>
                                                     <td>
-                                                        <button class="btn btn-warning">Editar</button>
+                                                        <button class="btn btn-warning" onclick="editPlayer({{ $player->id }})">Editar</button>
                                                         <form action="{{ route('player.delete', $player->id) }}" method="post">
                                                         @csrf
                                                         <input type="hidden" name="_method" value="delete" />
@@ -105,8 +103,9 @@
 
 
 @section('modals')
-    @include('admin.components.editmodal')
+    @include('admin.components.editplayer')
 @endsection
+
 
 @section('javascript')
     <script>
@@ -120,5 +119,30 @@
                 })
             });
         @endif
+
+        function editPlayer(player_id){
+            let url = '{{ route("player.find", ":id") }}';
+            url = url.replace(':id', player_id);
+            $.ajax({
+                url: url,
+            }).done(function (response) {
+                for (let key in response){
+                    $('#'+key).val(response[key])
+                }
+
+                $('#player_id').val(player_id)
+            });
+
+            $('#edit_team').modal('show');
+        }
+
+
+        $('#form_edit').submit(function(e){
+            $.ajax({
+                url: "{{ route('player.update', ':id') }}".replace(':id', $('#player_id').val()),
+                method: 'PUT',
+                data: $(this).serialize(),
+            })
+        })
     </script>
 @endsection

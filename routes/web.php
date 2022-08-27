@@ -46,8 +46,14 @@ Route::middleware(['auth'])->group(function(){
     })->name('resultfutmasc');
 
     Route::get('/cadjog', [PlayerController::class, 'index'])->name('cadjog');
-    Route::post('/jogador/novo', [PlayerController::class, 'store'])->name('player.store');
-    Route::delete('/jogador/deletar/{player}', [PlayerController::class, 'destroy'])->name('player.delete');
+
+    Route::prefix('jogador')->group(function (){
+        Route::post('/novo', [PlayerController::class, 'store'])->name('player.store');
+        Route::get('/buscar/{player}', [PlayerController::class, 'find'])->name('player.find');
+        Route::put('/editar/{player}', [PlayerController::class, 'update'])->name('player.update');
+        Route::delete('/deletar/{player}', [PlayerController::class, 'destroy'])->name('player.delete');
+    });
+
 
     Route::get('/editjogo', function () {
         return view('admin/editjogo');

@@ -11,51 +11,25 @@
                         <form class="row" id="form_edit" method="put" novalidate>
                             @csrf
                             {{ method_field('put') }}
-                            <input type="text" id="team_id" hidden>
+                            <input type="text" id="player_id" hidden>
                             <div class="field item form-group col-12">
-                                <label class="col-form-label label-align col-3 col-sm-2">Nome do Time<span class="required">*</span></label>
-                                <input class="form-control col-9" id="name" data-validate-length-range="6" data-validate-words="2" name="name" placeholder="" required="required" />
-                            </div>
-
-
-                            <div class="field item form-group col-12">
-                                <label class="col-form-label col-3 col-sm-2 label-align">Modalidade</label>
-                                <select required class="form-control" id="modality" name="modality" tabindex="-1">
-                                    <option disabled selected value="">Selecione uma opção</option>
-                                    <option value="1">Futsal Masculino</option>
-                                    <option value="2">Futsal Feminino</option>
-                                    <option value="3">Volei</option>
-                                    <option value="4">Ping Pong</option>
-                                    <option value="5">Carimba</option>
-                                </select>
+                                <label class="col-form-label col-md-3 col-sm-3  label-align">Nome do Jogador<span class="required">*</span></label>
+                                <div class="col-md-6 col-sm-6">
+                                    <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" id="name" placeholder="" required="required" />
+                                </div>
                             </div>
                             <div class="field item form-group col-12">
-                                <label class="col-form-label col-3 col-sm-2  label-align">Gênero da Modalidade</label>
-                                    <select required name="gender" id="gender" class="form-control" tabindex="-1">
-                                        <option disabled selected value="">Selecione uma opção</option>
-                                        <option value="M">Masculino</option>
-                                        <option value="F">Feminino</option>
-                                        <option value="O">Misto</option>
-                                    </select>
+                                <label class="col-form-label col-md-3 col-sm-3  label-align">Nº da Camisa do Jogador<span class="required">*</span></label>
+                                <div class="col-md-6 col-sm-6">
+                                    <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="number" id="number" placeholder="" required="required" />
+                                </div>
                             </div>
 
-                            <div class="field item form-group col-12">
-                                <label class="col-form-label col-3 col-sm-2 label-align">Nome da Musa<span class="required">*</span></label>
-                                    <input class="form-control" type="text" id="muse" name="muse"  title="" required />
-                            </div>
-
-                            <div class="field item form-group col-12">
-                                <label class="col-form-label label-align col-3 col-sm-2">Jogadores<span class="required">*</span></label>
-                                    <select class="players" name="players[]" id="players" multiple="multiple" required>
-                                        @foreach($players as $player)
-                                            <option value="{{ $player->id }}">{{ $player->name }} - Nº {{ $player->number }}</option>
-                                        @endforeach
-                                    </select>
-                            </div>
-
-                            <div class="col-12 justify-content-center">
-                                <button type='submit' class="btn btn-primary btn-sm col-3 offset-4">Editar</button>
-                            </div>
+                                <div class="d-flex col-12 justify-content-center mt-3">
+                                    <div class="col-md-6 offset-md-3">
+                                        <button type='submit' class="btn btn-primary">Editar</button>
+                                    </div>
+                                </div>
                         </form>
             </div>
             <div class="modal-footer">
