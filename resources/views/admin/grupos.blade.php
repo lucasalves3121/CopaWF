@@ -14,9 +14,15 @@
 
             <div class="clearfix"></div>
 
-            <form action="" method="POST">
-                <button type="submit" class="btn btn-primary">Sortear grupos</button>
-            </form>
+            <div class="mb-5">
+                <form action="{{ route('groups.draw') }}" class="row col-6" method="POST">
+                    @csrf
+                    <input type="number" class="form-control col-7" name="groups_number" placeholder="Número de grupos">
+                    <div class="col-5">
+                        <button type="submit" class="btn btn-primary">Sortear grupos</button>
+                    </div>
+                </form>
+            </div>
 
             <div class="row" style="display: block;">
               <div class="col-md-6 col-sm-6  ">

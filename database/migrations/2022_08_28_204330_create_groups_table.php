@@ -18,7 +18,8 @@ class CreateGroupsTable extends Migration
             $table->foreignId('team_id')->references('id')->on('teams');
             $table->foreignId('modality_id')->references('id')->on('modalities');
             $table->smallInteger('group_number');
-            $table->timestamps();
+            $table->timestamp('created_at')->nullable()->useCurrent();
+            $table->timestamp('updated_at')->nullable()->useCurrentOnUpdate();
         });
     }
 
