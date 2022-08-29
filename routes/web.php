@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\GroupController;
+use App\Http\Controllers\ModalityController;
 use App\Http\Controllers\PlayerController;
 use App\Http\Controllers\SettingsController;
 use App\Http\Controllers\TeamController;
@@ -34,17 +36,10 @@ Route::middleware(['auth'])->group(function(){
     Route::post('/time/novo', [TeamController::class, 'store'])->name('team.store');
     Route::post('/jogador/vincular', [TeamController::class, 'tapPlayer'])->name('team.tap-player');
 
-    Route::get('/grupos', function () {
-        return view('admin.grupos');
-    })->name('groups');
-
-    Route::get('/resultados', function () {
-        return view('admin.resultados');
-    })->name('results');
-
-    Route::get('/sorteios', function () {
-        return view('admin.sorteios');
-    })->name('sortitions');
+    Route::get('/grupos/{modalityId}', [ModalityController::class, 'groups'])->name('modality.groups');
+    Route::get('/resultados/{modalityId}', [ModalityController::class, 'results'])->name('modality.results');
+    Route::get('/sorteios/{modalityId}', [ModalityController::class, 'sortitions'])->name('modality.sortitions');
+    Route::get('/grupo/sortear', [GroupController::class, 'draw'])->name('groups.draw');
 
     Route::get('/cadjog', [PlayerController::class, 'index'])->name('cadjog');
 

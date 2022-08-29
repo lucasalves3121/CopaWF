@@ -4,15 +4,19 @@
 
 @section("content")
 
-   
         <!-- page content -->
         <div class="right_col" role="main">
-          
-         
+        @include('components.show-error')
+
+
           <br />
-          
+
 
             <div class="clearfix"></div>
+
+            <form action="" method="POST">
+                <button type="submit" class="btn btn-primary">Sortear grupos</button>
+            </form>
 
             <div class="row" style="display: block;">
               <div class="col-md-6 col-sm-6  ">
@@ -22,14 +26,13 @@
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
-                      
+
                       <li><a class="close-link"><i class="fa fa-close"></i></a>
                       </li>
                     </ul>
                     <div class="clearfix"></div>
                   </div>
                   <div class="x_content">
-
                     <table class="table">
                       <thead>
                         <tr>
@@ -65,7 +68,7 @@
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
-                      
+
                       <li><a class="close-link"><i class="fa fa-close"></i></a>
                       </li>
                     </ul>
@@ -99,15 +102,15 @@
                   </div>
                 </div>
               </div>
-        
+
 
             </div>
 
 
-           
 
 
-          
 
-    
+
+
+
 @endsection

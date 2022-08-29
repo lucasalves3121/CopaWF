@@ -69,8 +69,8 @@
                 <ul class="nav side-menu">
                     <li><a><i class="fa fa-home"></i> Cadastro<span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="cadmodal">Cadastrar Time</a></li>
-                            <li><a href="cadjog">Cadastrar Jogadores</a></li>
+                            <li><a href="{{ route('cadmodal') }}">Cadastrar Time</a></li>
+                            <li><a href="{{ route('cadjog') }}">Cadastrar Jogadores</a></li>
                         </ul>
                     </li>
 
@@ -81,9 +81,9 @@
                             </a>
 
                             <ul class="nav child_menu">
-                                <li><a href="{{ route('groups') }}">Grupos</a></li>
-                                <li><a href="{{ route('sortitions') }}">Sorteio de Jogos</a></li>
-                                <li><a href="{{ route('results') }}">Resultados dos Jogos</a></li>
+                                <li><a href="{{ route('modality.groups', encrypt($modality->id)) }}">Grupos</a></li>
+                                <li><a href="{{ route('modality.sortitions', encrypt($modality->id)) }}">Sorteio de Jogos</a></li>
+                                <li><a href="{{ route('modality.results', encrypt($modality->id)) }}">Resultados dos Jogos</a></li>
                             </ul>
                         </li>
                     @endforeach

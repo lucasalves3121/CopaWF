@@ -10,10 +10,10 @@
                 <h3>Jogos <small>Altere os resultados corretamente.</small></h3>
               </div>
 
-              
+
               </div>
             </div>
-            
+
             <div class="clearfix"></div>
 
             <div class="row">
@@ -24,7 +24,7 @@
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
-                      
+
                       <li><a class="close-link"><i class="fa fa-close"></i></a>
                       </li>
                     </ul>
@@ -54,23 +54,23 @@
                           </td>
                           <td>
                             <ul class="list-inline">
-                            <a>01.01.2022</a>    
-                              
+                            <a>01.01.2022</a>
+
                             </ul>
                           </td>
                           <td class="project_progress">
-                            
+
                             <h5>0   x   0</h5>
                           </td>
                           <td>
                           <h5>Pega do Banco</h5>
                           </td>
                           <td>
-                            <a href="editjogo" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
+                            <a href="{{ route('editjogo') }}" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
                             <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
                           </td>
                         </tr>
-                        
+
                       </tbody>
                     </table>
                     <!-- end project list -->
