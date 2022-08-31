@@ -43,14 +43,13 @@
                                         <div class="field item form-group">
 											<label class="col-form-label col-md-3 col-sm-3  label-align">Modalidade</label>
 											<div class="col-md-6 col-sm-6 ">
-												<select required class="form-control" name="modality" tabindex="-1">
+												<select required class="form-control" name="modality_id" tabindex="-1">
 													<option disabled selected value="">Selecione uma opção</option>
-													<option value="1">Futsal Masculino</option>
-													<option value="2">Futsal Feminino</option>
-													<option value="3">Volei</option>
-													<option value="4">Ping Pong</option>
-													<option value="5">Carimba</option>
-													<option value="6">FutMesa</option>
+													@foreach(getAllModalities() as $modality)
+                                                        <option value="{{ $modality->id }}">
+                                                            {{ \App\Enums\TeamModality::tryFrom($modality->id)->toString() }}
+                                                        </option>
+													@endforeach
 												</select>
 											</div>
 										</div>
