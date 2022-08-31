@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\GroupController;
+use App\Http\Controllers\ModalityController;
 use App\Http\Controllers\PlayerController;
+use App\Http\Controllers\SettingsController;
 use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
 
@@ -33,17 +36,13 @@ Route::middleware(['auth'])->group(function(){
     Route::post('/time/novo', [TeamController::class, 'store'])->name('team.store');
     Route::post('/jogador/vincular', [TeamController::class, 'tapPlayer'])->name('team.tap-player');
 
-    Route::get('/grupfutmasc', function () {
-        return view('admin/grupfutmasc');
-    })->name('grupfutmasc');
+    Route::middleware(['modality.verify'])->group(function(){
+        Route::get('/grupos/{modalityId}', [GroupController::class, 'index'])->name('modality.groups');
+        Route::get('/resultados/{modalityId}', [ModalityController::class, 'results'])->name('modality.results');
+        Route::get('/sorteios/{modalityId}', [ModalityController::class, 'sortitions'])->name('modality.sortitions');
+    });
 
-    Route::get('/grupfutfem', function () {
-        return view('admin/grupfutfem');
-    })->name('grupfutfem');
-
-    Route::get('/resultfutmasc', function () {
-        return view('admin/resultfutmasc');
-    })->name('resultfutmasc');
+    Route::post('/grupo/sortear', [GroupController::class, 'draw'])->name('groups.draw');
 
     Route::get('/cadjog', [PlayerController::class, 'index'])->name('cadjog');
 
@@ -59,9 +58,10 @@ Route::middleware(['auth'])->group(function(){
         return view('admin/editjogo');
     })->name('editjogo');
 
-    Route::get('/sortefutmasc', function () {
-        return view('admin/sortefutmasc');
-    })->name('sortefutmasc');
+
+
+
+    Route::get('configuracoes', [SettingsController::class, 'index'])->name('settings');
 });
 
 

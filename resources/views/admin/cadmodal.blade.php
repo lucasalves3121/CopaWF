@@ -49,8 +49,8 @@
 													<option value="2">Futsal Feminino</option>
 													<option value="3">Volei</option>
 													<option value="4">Ping Pong</option>
-													<option value="5">Carimba</option>                                                    
-													<option value="6">FutMesa</option> 
+													<option value="5">Carimba</option>
+													<option value="6">FutMesa</option>
 												</select>
 											</div>
 										</div>
@@ -162,17 +162,6 @@
                 placeholder: 'Selecione os jogadores'
             });
         });
-
-        @if(Session::exists('success'))
-        $(document).ready(function (){
-            new PNotify({
-                title: 'Sucesso!',
-                text: '{{ Session::get('success') }}!',
-                type: 'success',
-                styling: 'bootstrap3'
-            })
-        });
-        @endif
 
         function editTeam(team_id){
             let url = '{{ route("teams.find", ":id") }}';

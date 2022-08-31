@@ -5,7 +5,7 @@
 @section("content")
 <!-- ver um jeito de fazer com que o cronometro nao zere ao atulizar a pagina-->
 <!-- assim que aperta o butão nas tabela p adicionar um evento no jogo que ele capture o minuto.-->
-<!--Ao encerrar o primeiro temos os dados sao guardados, pro segundo tempo so soma os cartoes e os gols, 
+<!--Ao encerrar o primeiro temos os dados sao guardados, pro segundo tempo so soma os cartoes e os gols,
 as faltas zeram ( porem precisa guarda essa infomações-->
 <div class="right_col" role="main">
           <div class="">
@@ -29,7 +29,7 @@ as faltas zeram ( porem precisa guarda essa infomações-->
 
                     </div>
                     <div class="modal-body" width="200px">
-                        
+
                     <div class="container" style="text-align:center">
     <h3>CRONÔMETRO</h3>
     <div class="principal">
@@ -52,7 +52,7 @@ as faltas zeram ( porem precisa guarda essa infomações-->
             </div>
         </div>
     </div>
-</body> 
+</body>
                 </div>
               </div>
             </div>
@@ -80,26 +80,26 @@ as faltas zeram ( porem precisa guarda essa infomações-->
                       </div>
                       <div class="animated flipInY col-lg-3 col-md-3 col-sm-6  ">
                         <div class="tile-stats">
-                          
+
                           <div class="count" style="text-align:center"> 0</div>
-                            
+
                         </div>
                       </div>
                       <div class="animated flipInY col-lg-3 col-md-3 col-sm-6  ">
                         <div class="tile-stats">
-                          
+
                           <div class="count">Time2</div>
 
                           <h3>Modalidade</h3>
                         </div>
                       </div>
                     </div>
-                    <h3>1° Tempo</h3>            
+                    <h3>1° Tempo</h3>
                     <div class="row top_tiles" style="margin: 10px 0;">
                       <div class="col-md-3 tile">
                         <span>Falta Time 1 (Pega do banco)</span>
                         <h2>0 </h2>
-                        
+
                         <span class="sparkline_two" style="height: 160px;">
                                       <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
                                   </span>
@@ -132,7 +132,7 @@ as faltas zeram ( porem precisa guarda essa infomações-->
                       <div class="col-md-3 tile">
                         <span>Falta Time 1 (Pega do banco)</span>
                         <h2>0 </h2>
-                        
+
                         <span class="sparkline_two" style="height: 160px;">
                                       <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
                                   </span>
@@ -173,7 +173,7 @@ as faltas zeram ( porem precisa guarda essa infomações-->
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
-                      
+
                       <li><a class="close-link"><i class="fa fa-close"></i></a>
                       </li>
                     </ul>
@@ -195,7 +195,7 @@ as faltas zeram ( porem precisa guarda essa infomações-->
                           <td>Mark</td>
                           <td>
                             <!-- Ao aperta o butao atualiza o banco c/ +1 de acordo com jogador-->
-                            <a href="editjogo" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> F </a>
+                            <a href="{{ route('editjogo') }}" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> F </a>
                             <a href="#" class="btn btn-warning btn-xs"><i class="fa fa-trash-o"></i> C </a>
                             <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> C </a>
                             <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> GF </a>
@@ -225,7 +225,7 @@ as faltas zeram ( porem precisa guarda essa infomações-->
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
-                      
+
                       <li><a class="close-link"><i class="fa fa-close"></i></a>
                       </li>
                     </ul>
@@ -247,7 +247,7 @@ as faltas zeram ( porem precisa guarda essa infomações-->
                           <td>Mark</td>
                           <td>
                             <!-- Ao aperta o butao atualiza o banco c/ +1 de acordo com jogador-->
-                            <a href="editjogo" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> F </a>
+                            <a href="{{ route('editjogo') }}" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> F </a>
                             <a href="#" class="btn btn-warning btn-xs"><i class="fa fa-trash-o"></i> C </a>
                             <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> C </a>
                             <a href="#" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> GF </a>
@@ -268,7 +268,7 @@ as faltas zeram ( porem precisa guarda essa infomações-->
                   </div>
                 </div>
               </div>
-        
+
 
             </div>
 
