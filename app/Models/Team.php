@@ -18,7 +18,7 @@ class Team extends Model
     protected $fillable = [
         'image',
         'name',
-        'modality',
+        'modality_id',
         'gender',
         'muse',
     ];
@@ -35,7 +35,7 @@ class Team extends Model
 
     public function getModalityNameAttribute()
     {
-        return TeamModality::tryFrom($this->modality)->toString();
+        return TeamModality::tryFrom($this->modality_id)->toString();
     }
 
     public function getGenderNameAttribute()

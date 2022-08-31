@@ -6,38 +6,49 @@ use App\Models\Group;
 use App\Models\Team;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class GroupController extends Controller
 {
+    public function index()
+    {
+        $groups = Group::with('teams')->where('modality_id', Auth::user()->modality_id)->get();
+
+        return view('admin.grupos', compact('groups'));
+    }
+
     public function draw(Request $request)
     {
-        $groupsNumber = $request->groups_number;
+        $groupsNumber = $request->groups_number ?? 2;
         $modalityId = Auth::user()->modality_id;
-        $randomTeams = Team::where('modality', Auth::user()->modality_id)->get()->shuffle();
+        $randomTeams = Team::where('modality_id', Auth::user()->modality_id)->get()->shuffle();
         $teamsCount = $randomTeams->count();
 
-        $teamsGrouped = [];
         $index = 0;
-        $groupIndex = 1;
-
-        while ($index < ($teamsCount/$groupsNumber) * $groupIndex){
-            $teamsGrouped[$index] = [
-                'team_id' => $randomTeams->get($index)->id,
-                'modality_id' => $modalityId,
-                'group_number' => $groupIndex,
-            ];
-
-            $index++;
-            if ($index >= ($teamsCount/$groupsNumber) * $groupIndex && $groupIndex < $groupsNumber)
-                    $groupIndex++;
-        }
+        $groupIndex = 0;
+        $lasCreatedGroup = null;
 
         $groupExist = Group::where('modality_id', $modalityId);
 
-        if (!empty($groupExist->get()))
-            $groupExist->delete();
+        DB::transaction(function() use($groupExist, $teamsCount, $groupsNumber, $modalityId, $randomTeams, $index, $groupIndex, $lasCreatedGroup){
+            if (!empty($groupExist->get()))
+                $groupExist->delete();
 
-        Group::insert($teamsGrouped);
+            while ($index < $teamsCount){
+                if ($index >= ($teamsCount/$groupsNumber) * $groupIndex && $groupIndex < $groupsNumber){
+                    $lasCreatedGroup = Group::create([
+                        'modality_id' => $modalityId,
+                        'group_letter' => $groupIndex
+                    ]);
+
+                    $groupIndex++;
+                }
+
+
+                $lasCreatedGroup->teams()->attach($randomTeams->get($index)->id);
+                $index++;
+            }
+        });
 
         return redirect()->route('modality.groups', encrypt($modalityId))->with(['success' => 'Grupos gerados com sucesso!']);
     }

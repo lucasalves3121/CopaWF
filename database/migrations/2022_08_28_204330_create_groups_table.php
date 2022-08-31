@@ -15,9 +15,8 @@ class CreateGroupsTable extends Migration
     {
         Schema::create('groups', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('team_id')->references('id')->on('teams');
             $table->foreignId('modality_id')->references('id')->on('modalities');
-            $table->smallInteger('group_number');
+            $table->char('group_letter', 1);
             $table->timestamp('created_at')->nullable()->useCurrent();
             $table->timestamp('updated_at')->nullable()->useCurrentOnUpdate();
         });

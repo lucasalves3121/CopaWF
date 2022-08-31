@@ -207,11 +207,12 @@
               </ul>
             </nav>
           </div>
-        </div>
         <!-- /top navigation -->
+        </div>
         @yield('content')
       </div>
     </div>
+
 
 
 @yield('modals')
@@ -262,6 +263,20 @@
     <script src="/../build/js/custom.min.js"></script>
 	<script src="/../js/time.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+
+    @if(Session::exists('success'))
+        <script>
+            $(document).ready(function (){
+                new PNotify({
+                    title: 'Sucesso!',
+                    text: '{{ Session::get('success') }}!',
+                    type: 'success',
+                    styling: 'bootstrap3'
+                })
+            });
+        </script>
+    @endif
 
     @yield('javascript')
   </body>

@@ -36,9 +36,12 @@ Route::middleware(['auth'])->group(function(){
     Route::post('/time/novo', [TeamController::class, 'store'])->name('team.store');
     Route::post('/jogador/vincular', [TeamController::class, 'tapPlayer'])->name('team.tap-player');
 
-    Route::get('/grupos/{modalityId}', [ModalityController::class, 'groups'])->name('modality.groups');
-    Route::get('/resultados/{modalityId}', [ModalityController::class, 'results'])->name('modality.results');
-    Route::get('/sorteios/{modalityId}', [ModalityController::class, 'sortitions'])->name('modality.sortitions');
+    Route::middleware(['modality.verify'])->group(function(){
+        Route::get('/grupos/{modalityId}', [GroupController::class, 'index'])->name('modality.groups');
+        Route::get('/resultados/{modalityId}', [ModalityController::class, 'results'])->name('modality.results');
+        Route::get('/sorteios/{modalityId}', [ModalityController::class, 'sortitions'])->name('modality.sortitions');
+    });
+
     Route::post('/grupo/sortear', [GroupController::class, 'draw'])->name('groups.draw');
 
     Route::get('/cadjog', [PlayerController::class, 'index'])->name('cadjog');

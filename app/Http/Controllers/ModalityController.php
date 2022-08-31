@@ -10,28 +10,13 @@ use Illuminate\Validation\ValidationException;
 
 class ModalityController extends Controller
 {
-    public function groups($modalityId)
-    {
-        $modalityId = $this->checkModalityValid($modalityId);
-
-        Auth::user()->changeModalityLogged($modalityId);
-
-        return view('admin.grupos');
-    }
-
     public function sortitions($modalityId)
     {
-        $modalityId = $this->checkModalityValid($modalityId);
-        Auth::user()->changeModalityLogged($modalityId);
-
         return view('admin.sorteios');
     }
 
     public function results($modalityId)
     {
-        $modalityId = $this->checkModalityValid($modalityId);
-        Auth::user()->changeModalityLogged($modalityId);
-
         return view('admin.resultados');
     }
 

@@ -109,17 +109,6 @@
 
 @section('javascript')
     <script>
-        @if(\Illuminate\Support\Facades\Session::exists('success'))
-            $(document).ready(function (){
-                new PNotify({
-                    title: 'Sucesso!',
-                    text: 'O jogador foi cadastrado!',
-                    type: 'success',
-                    styling: 'bootstrap3'
-                })
-            });
-        @endif
-
         function editPlayer(player_id){
             let url = '{{ route("player.find", ":id") }}';
             url = url.replace(':id', player_id);
