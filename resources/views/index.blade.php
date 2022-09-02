@@ -50,7 +50,7 @@
                         <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Em homenagem</h6>
                         <h1 class="display-4">Homenagem a Wesley Ferreira</h1>
                     </div>
-                    <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+                    <p style="text-align:justify">Wesley foi um jovem incrível , cheio de vida , sonhos e um marido espetacular . Ele era vida , mesmo por tão pouco tempo (apenas 21 anos ) que ele ficou aqui na terra ele soube viver essa vida … intenso e grandioso . Parece que você era um anjo que estava por um tempo aqui na terra e que Deus estava com muita saudade e teve que te recolher de volta …. Wesley foi um exemplo de compromisso, solidariedade, amizade e amor. Acolher esse sentimento é de muita dor e o que conforta é saber que aqui na terra você tirou lindos sorrisos de amigos,familiares e companheira , sua energia positiva e verdadeira era forte demais e ela faz morada dentro de nós . Te Amamos 🖤</p>
                     <div class="row pt-3 mx-0">
                         <div class="col-3 px-0">
                             <div class="bg-success text-center p-4">
@@ -257,7 +257,7 @@
         <div class="container py-5">
             <div class="section-title text-center position-relative mb-5">
                 <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Site</h6>
-                <h1 class="display-4">Dsenvolvedores</h1>
+                <h1 class="display-4">Desenvolvedores</h1>
             </div>
             <div class="owl-carousel team-carousel position-relative" style="padding: 0 30px;">
                 <div class="team-item">
@@ -275,7 +275,7 @@
                     </div>
                 </div>
                 <div class="team-item">
-                    <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/romim.jpeg" alt="">
                     <div class="bg-light text-center p-4">
                         <h5 class="mb-3">Romulo Lima Fonseca</h5>
                         <p class="mb-2">Analista de dados e Desenvolvedor Back-end</p>
@@ -291,8 +291,8 @@
                 <div class="team-item">
                     <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
                     <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
+                        <h5 class="mb-3">Cleidiane Freitas</h5>
+                        <p class="mb-2">Lider da equipe de desenvolvimento Sisvote</p>
                         <div class="d-flex justify-content-center">
                             <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -302,20 +302,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="team-item">
-                    <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
-                    <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
-                        <div class="d-flex justify-content-center">
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>

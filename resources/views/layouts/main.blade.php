@@ -130,14 +130,14 @@
                                         <div class="row"style= "margin-top:100px">
                 <div class="col-md-6 mb-5">
                     <h3 class="text-white mb-4">Informações</h3>
-                    <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                    <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                    <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                    <a href="https://www.google.com/maps/place/EEEP+Jos%C3%A9+Maria+Falc%C3%A3o/@-4.168373,-38.463085,16z/data=!4m5!3m4!1s0x0:0x630300fc876d8217!8m2!3d-4.1683728!4d-38.4630849?hl=pt-BR" style="color:#a0a0a0;text-decoration:none"><p><p><i class="fa fa-map-marker-alt mr-2"></i>EEEP José Maria Falcão</p></a>
+                    <a href="tel:85999574667" style="color:#a0a0a0;text-decoration:none"><p><i class="fa fa-phone-alt mr-2"></i>(85) 99957-4667</p></a>
+                    <a href="mailto:copawf@gmail.com" style="color:#a0a0a0;text-decoration:none"><p><i class="fa fa-envelope mr-2"></i> copawf@gmail.com</p></a>
                     <div class="d-flex justify-content-start mt-4">
-                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-twitter"></i></a>
+                        <a class="text-white mr-4" href="https://www.youtube.com/channel/UCbA7TD8xTrkTdqeOQ_4IpKQ"><i class="fab fa-2x fa-youtube"></i></a>
                         <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
-                        <a class="text-white mr-4" href="#"><i class="fab fa-2x fa-linkedin-in"></i></a>
-                        <a class="text-white" href="#"><i class="fab fa-2x fa-instagram"></i></a>
+                        <a class="text-white mr-4" href="https://api.whatsapp.com/send?phone=55558599574667&text=Quero%20informa%C3%A7%C3%B5es%20sobre%20a%20copinha."><i class="fab fa-2x fa-whatsapp"></i></a>
+                        <a class="text-white" href="https://instagram.com/copa.wf?igshid=YmMyMTA2M2Y="><i class="fab fa-2x fa-instagram"></i></a>
                     </div>
                 </div>
                 
@@ -160,11 +160,16 @@
         <div class="containe">
             <div class="row">
                 <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-                    <p class="m-0">Copyright &copy; <a class="text-white" href="#">Your Site Name</a>. All Rights Reserved.
+                    <p class="m-0">&copy; <a class="text-white" href="#">Copa Wesley Ferreira | 
+                        <script language=javascript type="text/javascript">
+                            now = new Date
+                                document.write (  + now.getFullYear() )
+                        </script>
+                        </a>. Todos os direitos reservados.
                     </p>
                 </div>
                 <div class="col-md-6 text-center text-md-right">
-                    <p class="m-0">Designed by <a class="text-white" href="https://htmlcodex.com">HTML Codex</a>
+                    <p class="m-0">Desenvolvido por<a class="text-white" href="https://instagram.com/__lucasallves?igshid=YmMyMTA2M2Y="> Lucas Alves | </a><a class="text-white" href="https://instagram.com/romuloo.lf?igshid=YmMyMTA2M2Y=">Rômulo Lima</a>
                     </p>
                 </div>
             </div>
