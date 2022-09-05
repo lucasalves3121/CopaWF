@@ -3,16 +3,14 @@
 @section('title','Administrador | Copa Wesley Ferreira')
 
 @section("content")
-
-        <!-- page content -->
+          
         <div class="right_col" role="main">
         @include('components.show-error')
-
+        
 
           <br />
 
 
-            <div class="clearfix"></div>
 
             <div class="mb-5">
                 <form action="{{ route('groups.draw') }}" class="row col-6" method="POST">
@@ -23,13 +21,15 @@
                     </div>
                 </form>
             </div>
+            
 
-
-                <div class="row" style="display: block;">
+            
+          <div class="">
             @foreach($groups as $group)
-                    <div class="col-md-6 col-sm-6  ">
-                        <div class="x_panel">
-                            <div class="x_title">
+            <div class="clearfix">
+              <div class="col-md-6 col-sm-6  ">
+                <div class="x_panel">
+                  <div class="x_title">
                                 <h2>Grupo {{ $group->group_letter }}<small>Futsal Masculino</small></h2>
                                 <ul class="nav navbar-right panel_toolbox">
                                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
