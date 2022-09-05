@@ -100,8 +100,8 @@
                         <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Galeria</a>
                         <div class="dropdown-menu m-0">
-                            <a href="classfutmasc" class="dropdown-item">Fotos</a>
-                            <a href="feature.html" class="dropdown-item">Videos</a>
+                            <a href="images" class="dropdown-item">Fotos</a>
+                            <a href="video" class="dropdown-item">Videos</a>
                         </div>
                         </div>
                         </div>
@@ -123,7 +123,10 @@
                     <a href="index.html" class="navbar-brand">
                         <h1 class="mt-n2 text-uppercase text-white"><i class="fas fa-futbol mr-3"></i>CopaWF</h1>
                     </a>
-                    <p class="m-0">Em sua primeira e tão importante edição; a copa W.F vem para superar e impressionar o setor esportivo. E para isso: contamos com uma equipe de excelência, preparados e treinados para organizar, direcionar, criar, estruturar e ampliar todo os seguimentos e setores da edição. Sejam bem-vindos ao mundo da copa W.F</p>
+                    <p class="m-0">Em sua primeira e tão importante edição, a Copa W.F tem o propósito de superar expectativas e impressionar o ramo esportivo.
+Para isso, possui uma comissão de excelência, preparada e treinada para organizar, direcionar, criar, estruturar e ampliar todo os seguimentos e setores da edição. 
+
+Sejam bem-vindos ao mundo da copa W.F!</p>
                                         <div class="row"style= "margin-top:100px">
                 <div class="col-md-6 mb-5">
                     <h3 class="text-white mb-4">Informações</h3>

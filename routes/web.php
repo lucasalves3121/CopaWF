@@ -89,5 +89,11 @@ Route::get('/classfutfem', function () {
 Route::get('/patrocinadores', function () {
     return view('patrocinadores');
 });
+Route::get('/images', function () {
+    return view('images');
+});
+Route::get('/video', function () {
+    return view('video');
+});
 
 require __DIR__.'/auth.php';
