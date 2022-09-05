@@ -85,7 +85,7 @@ Acreditando sempre em "Uma luta por dia", transformou sua coragem e esforço na 
                         </div>
                     </div>
                     <div class="d-flex mb-3">
-                        <div class="btn-icon bg-secondary mr-4">
+                        <div class="btn-icon bg-primary mr-4">
                             <i class="fa fa-2x fa-certificate text-white"></i>
                         </div>
                         <div class="mt-n1">
@@ -94,7 +94,7 @@ Acreditando sempre em "Uma luta por dia", transformou sua coragem e esforço na 
                         </div>
                     </div>
                     <div class="d-flex">
-                        <div class="btn-icon bg-warning mr-4">
+                        <div class="btn-icon bg-primary mr-4">
                             <i class="fa fa-2x fa-book-reader text-white"></i>
                         </div>
                         <div class="mt-n1">

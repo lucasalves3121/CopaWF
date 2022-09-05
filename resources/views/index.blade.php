@@ -53,7 +53,7 @@
                     <p style="text-align:justify">Wesley foi um jovem incrível , cheio de vida , sonhos e um marido espetacular . Ele era vida , mesmo por tão pouco tempo (apenas 21 anos ) que ele ficou aqui na terra ele soube viver essa vida … intenso e grandioso . Parece que você era um anjo que estava por um tempo aqui na terra e que Deus estava com muita saudade e teve que te recolher de volta …. Wesley foi um exemplo de compromisso, solidariedade, amizade e amor. Acolher esse sentimento é de muita dor e o que conforta é saber que aqui na terra você tirou lindos sorrisos de amigos,familiares e companheira , sua energia positiva e verdadeira era forte demais e ela faz morada dentro de nós . Te Amamos 🖤</p>
                     <div class="row pt-3 mx-0">
                         <div class="col-3 px-0">
-                            <div class="bg-success text-center p-4">
+                            <div class="bg-primary text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">2016</h1>
                                 <h6 class="text-uppercase text-white">Turma<span class="d-block">informática</span></h6>
                             </div>
@@ -65,13 +65,13 @@
                             </div>
                         </div>
                         <div class="col-3 px-0">
-                            <div class="bg-secondary text-center p-4">
+                            <div class="bg-primary text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">05</h1>
                                 <h6 class="text-uppercase text-white">Mês<span class="d-block">Ceará</span></h6>
                             </div>
                         </div>
                         <div class="col-3 px-0">
-                            <div class="bg-warning text-center p-4">
+                            <div class="bg-primary text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">2000</h1>
                                 <h6 class="text-uppercase text-white">Ano<span class="d-block">Geminiano</span></h6>
                             </div>
@@ -117,8 +117,8 @@
                             <i class="fa fa-2x fa-table-tennis-paddle-ball text-white"></i>
                         </div>
                         <div class="mt-n1">
-                            <h4>Ping Pong</h4>
-                            <p>Jogo em que duas pessoas usam raquetes de madeira para passar uma bolinha de um lado a outro de uma rede instalada em uma mesa.</p>
+                            <h4> Fut Mesa</h4>
+                            <p>é o esporte que vem conquistando o Brasil nos últimos anos, visto que a modalidade mistura futebol, vôlei e tênis de mesa. </p>
                         </div>
                     </div>
                     <div class="d-flex">
