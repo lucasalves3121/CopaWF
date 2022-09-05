@@ -165,7 +165,7 @@ Sejam bem-vindos ao mundo da copa W.F!</p>
                             now = new Date
                                 document.write (  + now.getFullYear() )
                         </script>
-                        </a>. Todos os direitos reservados.
+                        </a> <a href="login" style="color:#a0a0a0;text-decorate:none">Todos os direitos reservados.</a>
                     </p>
                 </div>
                 <div class="col-md-6 text-center text-md-right">
