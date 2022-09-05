@@ -7,7 +7,7 @@
    
 
     <!-- Header Start -->
-    <div class="jumbotro jumbotron-fluid position-relative overlay-bottom" style="margin-bottom: 20px;">
+    <div class="jumbotro jumbotron-fluid position-relative overlay-bottom" style="margin-bottom: 30px;">
         <div class="contai">      
              
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
