@@ -8,8 +8,8 @@
         <h3 class="text-xs-center">Videos | Copa Wesley Ferreira</h3>
         <div class="row pb-row">
             <div class="col-md-3 pb-video">
-                <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/K68UrdUOr2Y?list=RDzuAcaBkcYGE?ecver=1" frameborder="0" allowfullscreen></iframe>
-                <label class="form-control label-warning text-xs-center">Claydee - Alena</label>
+            <iframe class="pb-video-frame" width="100%" height="230"  src="https://www.youtube.com/embed/nd-86bHzrNQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <label class="form-control label-warning text-xs-center">Homenagem | Copa WF</label>
             </div>
             <div class="col-md-3 pb-video">
                 <iframe class="pb-video-frame" width="100%" height="230" src="https://www.youtube.com/embed/wjT2JVlUFY4?list=RDzuAcaBkcYGE?ecver=1" frameborder="0" allowfullscreen></iframe>

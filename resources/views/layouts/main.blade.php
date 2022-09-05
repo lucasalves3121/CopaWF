@@ -33,7 +33,7 @@
         <div class="row py-2 px-lg-5">
             <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center text-white">
-                    <small><i class="fa fa-phone-alt mr-2"></i>www.copawf.com.br</small>
+                    <small><i class="fa-solid fa-globe"></i> www.copawf.com.br</small>
                     <small class="px-3">|</small>
                     <small><i class="fa fa-envelope mr-2"></i>copawf@gmail.com</small>
                 </div>
@@ -46,10 +46,10 @@
                     <a class="text-white px-2" href="">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a class="text-white px-2" href="">
+                    <a class="text-white px-2" href="https://www.instagram.com/copa.wf/">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a class="text-white pl-2" href="">
+                    <a class="text-white pl-2" href="https://www.youtube.com/channel/UCbA7TD8xTrkTdqeOQ_4IpKQ">
                         <i class="fab fa-youtube"></i>
                     </a>
                 </div>
@@ -121,7 +121,7 @@
             <div class="row">
                 <div class="col-md-6 mb-5">
                     <a href="index.html" class="navbar-brand">
-                        <h1 class="mt-n2 text-uppercase text-white"><i class="fas fa-futbol mr-3"></i>CopaWF</h1>
+                        <h1 class="mt-n2 text-uppercase text-white"><i class="fas fa-trophy mr-3"></i>CopaWF</h1>
                     </a>
                     <p class="m-0">Em sua primeira e tão importante edição, a Copa W.F tem o propósito de superar expectativas e impressionar o ramo esportivo.
 Para isso, possui uma comissão de excelência, preparada e treinada para organizar, direcionar, criar, estruturar e ampliar todo os seguimentos e setores da edição. 
@@ -144,7 +144,7 @@ Sejam bem-vindos ao mundo da copa W.F!</p>
                 </div>  
                 </div>
                 <div class="col-md-6 mb-6">
-                    <h1 class="mt-n2 text-uppercase text-white"><i class="fas fa-campground"  mr-3"></i> Localização</h1>
+                    <h1 class="mt-n2 text-uppercase text-white"><i class="fa-sharp fa-solid fa-map-location-dot"></i> Localização</h1>
                     <div class="w-100">
                         <div class="input-group">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.264264104799!2d-38.46527358255615!3d-4.168372800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b8b9b8c67f2abd%3A0x630300fc876d8217!2sEEEP%20Jos%C3%A9%20Maria%20Falc%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1660906364397!5m2!1spt-BR!2sbr" width="700" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
