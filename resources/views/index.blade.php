@@ -348,7 +348,7 @@
                     <img class="img-fluid w-100" src="img/joabson.jpeg" alt="">
                     <div class="bg-light text-center p-4">
                         <h5 class="mb-3">Joabson Matos</h5>
-                        <p class="mb-2">Usuário Teste</p>
+                        <p class="mb-2">Usuário Tester</p>
                         <div class="d-flex justify-content-center">
                             <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -357,14 +357,12 @@
                     </div>
                 </div>
                 <div class="team-item">
-                    <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/cleidi.jpeg" alt="">
                     <div class="bg-light text-center p-4">
                         <h5 class="mb-3">Cleidiane Freitas</h5>
                         <p class="mb-2">Lider da equipe de desenvolvimento Sisvote</p>
                         <div class="d-flex justify-content-center">
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="mx-1 p-1" href="https://instagram.com/cleidefreitaas_?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
