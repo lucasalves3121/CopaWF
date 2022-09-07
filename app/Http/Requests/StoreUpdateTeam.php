@@ -27,11 +27,11 @@ class StoreUpdateTeam extends FormRequest
         return [
             'name' => 'required|min:2|max:255',
             'modality_id' => 'required|integer|min:1|max:6',
-            'gender' => [
-                'required',
-                'string',
-                Rule::in(['M', 'F', 'O'])
-            ],
+//            'gender' => [
+//                'required',
+//                'string',
+//                Rule::in(['M', 'F', 'O'])
+//            ],
             'muse' => 'required|string',
             'players' => 'required|array'
         ];
@@ -42,7 +42,7 @@ class StoreUpdateTeam extends FormRequest
         return [
             'name.required' => 'O nome do time é obrigatório.',
             'modality_id.required' => 'A modalidade é obrigatória.',
-            'gender.required' => 'O gênero é obrigatório.',
+//            'gender.required' => 'O gênero é obrigatório.',
             'muse.required' => 'O nome da musa é obrigatório.',
             'name.min' => 'O nome do time deve possuir no mínimo 2 caracteres.',
             'name.max' => 'O nome do time deve possuir no máximo 255 caracteres.',

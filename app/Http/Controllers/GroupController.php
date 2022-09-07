@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Group;
 use App\Models\Team;
 use Illuminate\Http\Request;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
@@ -51,5 +52,35 @@ class GroupController extends Controller
         });
 
         return redirect()->route('modality.groups', encrypt($modalityId))->with(['success' => 'Grupos gerados com sucesso!']);
+    }
+
+    public function drawGames(Group $group)
+    {
+        $teams = $group->teams;
+
+        $allGames = collect();
+
+        $roundCount = 0;
+
+        foreach ($teams as $teamOne){
+            foreach ($teams as $teamTwo){
+                if ($teamOne != $teamTwo && $allGames->where('first_team', $teamTwo->id)->where('second_team', $teamOne->id)->isEmpty()){
+                    $allGames->push([
+                        'first_team' => $teamOne->id,
+                        'second_team' => $teamTwo->id,
+                        'group_id' => $group->id,
+                    ]);
+                }
+            }
+        }
+
+        /* condições para trocar a rodada
+         * 1 -> um time não pode duas vezes na mesma rodada
+         * 2 -> no máximo 1 time poderá ficar de fora da rodada
+         * 3 -> um time só pode ficar fora uma vez
+         * */
+
+
+        dd($allGames->shuffle());
     }
 }

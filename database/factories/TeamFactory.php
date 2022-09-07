@@ -21,7 +21,6 @@ class TeamFactory extends Factory
 //            'modality_id' => rand(1,getAllModalities()->count()),
             'modality_id' => 1,
             'muse' => $this->faker->name(true),
-            'gender' => 'M'
         ];
     }
 

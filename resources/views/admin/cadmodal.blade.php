@@ -53,18 +53,6 @@
 												</select>
 											</div>
 										</div>
-                                        <div class="field item form-group">
-											<label class="col-form-label col-md-3 col-sm-3  label-align">Gênero da Modalidade</label>
-											<div class="col-md-6 col-sm-6 ">
-												<select required name="gender" class="form-control" tabindex="-1">
-                                                    <option disabled selected value="">Selecione uma opção</option>
-                                                    <option value="M">Masculino</option>
-													<option value="F">Feminino</option>
-													<option value="O">Misto</option>
-
-												</select>
-											</div>
-										</div>
 
                                         <div class="field item form-group">
 											<label class="col-form-label col-md-3 col-sm-3  label-align">Nome da Musa<span class="required">*</span></label>
@@ -114,7 +102,6 @@
                                         <tr>
                                             <th>Nome</th>
                                             <th>Modalidade</th>
-                                            <th>Gênero</th>
                                             <th>Musa</th>
                                             <th>Número de jogadores</th>
                                             <th>Ações</th>
@@ -125,7 +112,6 @@
                                             <tr>
                                                 <td>{{ $team->name }}</td>
                                                 <td>{{ $team->modality_name }}</td>
-                                                <td>{{ $team->gender_name }}</td>
                                                 <td>{{ $team->muse }}</td>
                                                 <td>{{ $team->players()->count() }}</td>
                                                 <td>

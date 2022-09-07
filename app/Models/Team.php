@@ -25,7 +25,6 @@ class Team extends Model
 
     protected $appends = [
         'modality_name',
-        'gender_name',
     ];
 
     public function players(): BelongsToMany
@@ -36,10 +35,5 @@ class Team extends Model
     public function getModalityNameAttribute()
     {
         return TeamModality::tryFrom($this->modality_id)->toString();
-    }
-
-    public function getGenderNameAttribute()
-    {
-        return TeamGender::tryFrom($this->gender)->toString();
     }
 }

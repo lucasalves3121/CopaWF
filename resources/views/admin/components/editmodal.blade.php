@@ -29,15 +29,6 @@
                                     @endforeach
                                 </select>
                             </div>
-                            <div class="field item form-group col-12">
-                                <label class="col-form-label col-3 col-sm-2  label-align">Gênero da Modalidade</label>
-                                    <select required name="gender" id="gender" class="form-control" tabindex="-1">
-                                        <option disabled selected value="">Selecione uma opção</option>
-                                        <option value="M">Masculino</option>
-                                        <option value="F">Feminino</option>
-                                        <option value="O">Misto</option>
-                                    </select>
-                            </div>
 
                             <div class="field item form-group col-12">
                                 <label class="col-form-label col-3 col-sm-2 label-align">Nome da Musa<span class="required">*</span></label>
