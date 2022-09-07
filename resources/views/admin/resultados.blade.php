@@ -30,7 +30,7 @@
                     </ul>
                     <div class="clearfix"></div>
                   </div>
-                  <div class="x_content">
+                  <div class="x_content table-responsive">
 
 
                     <!-- start project list -->

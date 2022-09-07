@@ -7,7 +7,7 @@
    
 
     <!-- Header Start -->
-    <div class="jumbotro jumbotron-fluid position-relative overlay-bottom" style="margin-bottom: 90px;">
+    <div class="jumbotro jumbotron-fluid position-relative overlay-bottom" style="margin-bottom: 30px;">
         <div class="contai">      
              
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -37,10 +37,10 @@
 
 
     <!-- About Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
+    <div class="container-fluid py-4">
+        <div class="container py-4">
             <div class="row">
-                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                <div class="col-lg-5 mb-5   mb-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
                         <img class="position-absolute w-100 h-100" src="img/hom.jpeg" style="object-fit: cover;">
                     </div>
@@ -50,10 +50,10 @@
                         <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Em homenagem</h6>
                         <h1 class="display-4">Homenagem a Wesley Ferreira</h1>
                     </div>
-                    <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+                    <p style="text-align:justify">Wesley foi um jovem incrível , cheio de vida , sonhos e um marido espetacular . Ele era vida , mesmo por tão pouco tempo (apenas 21 anos ) que ele ficou aqui na terra ele soube viver essa vida … intenso e grandioso . Parece que você era um anjo que estava por um tempo aqui na terra e que Deus estava com muita saudade e teve que te recolher de volta …. Wesley foi um exemplo de compromisso, solidariedade, amizade e amor. Acolher esse sentimento é de muita dor e o que conforta é saber que aqui na terra você tirou lindos sorrisos de amigos,familiares e companheira , sua energia positiva e verdadeira era forte demais e ela faz morada dentro de nós . Te Amamos 🖤</p>
                     <div class="row pt-3 mx-0">
                         <div class="col-3 px-0">
-                            <div class="bg-success text-center p-4">
+                            <div class="bg-primary text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">2016</h1>
                                 <h6 class="text-uppercase text-white">Turma<span class="d-block">informática</span></h6>
                             </div>
@@ -65,13 +65,13 @@
                             </div>
                         </div>
                         <div class="col-3 px-0">
-                            <div class="bg-secondary text-center p-4">
+                            <div class="bg-primary text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">05</h1>
                                 <h6 class="text-uppercase text-white">Mês<span class="d-block">Ceará</span></h6>
                             </div>
                         </div>
                         <div class="col-3 px-0">
-                            <div class="bg-warning text-center p-4">
+                            <div class="bg-primary text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">2000</h1>
                                 <h6 class="text-uppercase text-white">Ano<span class="d-block">Geminiano</span></h6>
                             </div>
@@ -117,8 +117,8 @@
                             <i class="fa fa-2x fa-table-tennis-paddle-ball text-white"></i>
                         </div>
                         <div class="mt-n1">
-                            <h4>Ping Pong</h4>
-                            <p>Jogo em que duas pessoas usam raquetes de madeira para passar uma bolinha de um lado a outro de uma rede instalada em uma mesa.</p>
+                            <h4> Fut Mesa</h4>
+                            <p>é o esporte que vem conquistando o Brasil nos últimos anos, visto que a modalidade mistura futebol, vôlei e tênis de mesa. </p>
                         </div>
                     </div>
                     <div class="d-flex">
@@ -157,92 +157,152 @@
         </div>
         <div class="owl-carousel courses-carousel">
             <div class="courses-item position-relative">
-                <img class="img-fluid" src="img/courses-1.jpg" alt="">
+                <img class="img-fluid" src="img/grasiele.jpeg" alt="">
                 <div class="courses-text">
-                    <h4 class="text-center text-white px-3">Web design & development courses for beginners</h4>
+                    <h4 class="text-center text-white px-3">Grasielle Rodrigues</h4>
                     <div class="border-top w-100 mt-3">
                         <div class="d-flex justify-content-between p-4">
-                            <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                            <span class="text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                            <span class="text-white"><i class="fa fa-user mr-2"></i>Anonymous</span>
+                            <span class="text-white"><i class="fa fa-star mr-2"></i>17 <small>Anos</small></span>
                         </div>
                     </div>
                     <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="detail.html">Course Detail</a>
+                        <a class="btn btn-primary" href="https://www.instagram.com/_grasyrodrigues/">Instagram</a>
                     </div>
                 </div>
             </div>
             <div class="courses-item position-relative">
-                <img class="img-fluid" src="img/courses-2.jpg" alt="">
+                <img class="img-fluid" src="img/liria.jpeg" alt="">
                 <div class="courses-text">
-                    <h4 class="text-center text-white px-3">Web design & development courses for beginners</h4>
+                    <h4 class="text-center text-white px-3">Líria Maria</h4>
                     <div class="border-top w-100 mt-3">
                         <div class="d-flex justify-content-between p-4">
-                            <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                            <span class="text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                            <span class="text-white"><i class="fa fa-user mr-2"></i>New Killers</span>
+                            <span class="text-white"><i class="fa fa-star mr-2"></i>17 <small>Anos</small></span>
                         </div>
                     </div>
                     <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="detail.html">Course Detail</a>
+                        <a class="btn btn-primary" href="https://www.instagram.com/_liriamaria_/">Instagram</a>
                     </div>
                 </div>
             </div>
             <div class="courses-item position-relative">
-                <img class="img-fluid" src="img/courses-3.jpg" alt="">
+                <img class="img-fluid" src="img/bianca.jpeg" alt="">
                 <div class="courses-text">
-                    <h4 class="text-center text-white px-3">Web design & development courses for beginners</h4>
+                    <h4 class="text-center text-white px-3">Bianca Sousa</h4>
                     <div class="border-top w-100 mt-3">
                         <div class="d-flex justify-content-between p-4">
-                            <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                            <span class="text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                            <span class="text-white"><i class="fa fa-user mr-2"></i>As Paty</span>
+                            <span class="text-white"><i class="fa fa-star mr-2"></i>16 <small>Anos</small></span>
                         </div>
                     </div>
                     <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="detail.html">Course Detail</a>
+                        <a class="btn btn-primary" href="https://www.instagram.com/biancassantoss__/?igshid=YmMyMTA2M2Y%3D">Instagram</a>
                     </div>
                 </div>
             </div>
             <div class="courses-item position-relative">
-                <img class="img-fluid" src="img/courses-4.jpg" alt="">
+                <img class="img-fluid" src="img/karla.jpg" alt="">
                 <div class="courses-text">
-                    <h4 class="text-center text-white px-3">Web design & development courses for beginners</h4>
+                    <h4 class="text-center text-white px-3">Karla Rodrigues</h4>
                     <div class="border-top w-100 mt-3">
                         <div class="d-flex justify-content-between p-4">
-                            <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                            <span class="text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                            <span class="text-white"><i class="fa fa-user mr-2"></i>Aposentados</span>
+                            <span class="text-white"><i class="fa fa-star mr-2"></i>17 <small>Anos</small></span>
                         </div>
                     </div>
                     <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="detail.html">Course Detail</a>
+                        <a class="btn btn-primary" href="#">Instagram</a>
                     </div>
                 </div>
             </div>
             <div class="courses-item position-relative">
-                <img class="img-fluid" src="img/courses-5.jpg" alt="">
+                <img class="img-fluid" src="img/maria.png" alt="">
                 <div class="courses-text">
-                    <h4 class="text-center text-white px-3">Web design & development courses for beginners</h4>
+                    <h4 class="text-center text-white px-3">María Isabelly</h4>
                     <div class="border-top w-100 mt-3">
                         <div class="d-flex justify-content-between p-4">
-                            <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                            <span class="text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                            <span class="text-white"><i class="fa fa-user mr-2"></i>Falcões FC </span>
+                            <span class="text-white"><i class="fa fa-star mr-2"></i>16 <small>Anos</small></span>
                         </div>
                     </div>
                     <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="detail.html">Course Detail</a>
+                        <a class="btn btn-primary" href="@https://www.instagram.com/isabelly.santoxx">Instagram</a>
                     </div>
                 </div>
             </div>
             <div class="courses-item position-relative">
-                <img class="img-fluid" src="img/courses-6.jpg" alt="">
+                <img class="img-fluid" src="img/tamires.jpeg" alt="">
                 <div class="courses-text">
-                    <h4 class="text-center text-white px-3">Web design & development courses for beginners</h4>
+                    <h4 class="text-center text-white px-3">Tamires Bernado</h4>
                     <div class="border-top w-100 mt-3">
                         <div class="d-flex justify-content-between p-4">
-                            <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                            <span class="text-white"><i class="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                            <span class="text-white"><i class="fa fa-user mr-2"></i>Galáticos</span>
+                            <span class="text-white"><i class="fa fa-star mr-2"></i>17 <small>Anos</small></span>
                         </div>
                     </div>
                     <div class="w-100 bg-white text-center p-4" >
-                        <a class="btn btn-primary" href="detail.html">Course Detail</a>
+                        <a class="btn btn-primary" href="https://www.instagram.com/_tamires_b">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="courses-item position-relative">
+                <img class="img-fluid" src="img/larice.jpeg" alt="">
+                <div class="courses-text">
+                    <h4 class="text-center text-white px-3">Larice Cavalcante</h4>
+                    <div class="border-top w-100 mt-3">
+                        <div class="d-flex justify-content-between p-4">
+                            <span class="text-white"><i class="fa fa-user mr-2"></i>Improváveis </span>
+                            <span class="text-white"><i class="fa fa-star mr-2"></i>17 <small>Anos</small></span>
+                        </div>
+                    </div>
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="btn btn-primary" href="https://instagram.com/laricecavalcante__">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="courses-item position-relative">
+                <img class="img-fluid" src="img/ana.png" alt="">
+                <div class="courses-text">
+                    <h4 class="text-center text-white px-3">Ana Cecília</h4>
+                    <div class="border-top w-100 mt-3">
+                        <div class="d-flex justify-content-between p-4">
+                            <span class="text-white"><i class="fa fa-user mr-2"></i>La máfia </span>
+                            <span class="text-white"><i class="fa fa-star mr-2"></i>15 <small>Anos</small></span>
+                        </div>
+                    </div>
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="btn btn-primary" href="https://instagram.com/aninha.vianna?igshid=YmMyMTA2M2Y=">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="courses-item position-relative">
+                <img class="img-fluid" src="img/iandra.png" alt="">
+                <div class="courses-text">
+                    <h4 class="text-center text-white px-3">Antonia Iandra</h4>
+                    <div class="border-top w-100 mt-3">
+                        <div class="d-flex justify-content-between p-4">
+                            <span class="text-white"><i class="fa fa-user mr-2"></i>Ldb </span>
+                            <span class="text-white"><i class="fa fa-star mr-2"></i>18 <small>Anos</small></span>
+                        </div>
+                    </div>
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="btn btn-primary" href="https://instagram.com/_iandra?igshid=YmMyMTA2M2Y=">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="courses-item position-relative">
+                <img class="img-fluid" src="img/leticia.jpeg" alt="">
+                <div class="courses-text">
+                    <h4 class="text-center text-white px-3">Letícia Lima</h4>
+                    <div class="border-top w-100 mt-3">
+                        <div class="d-flex justify-content-between p-4">
+                            <span class="text-white"><i class="fa fa-user mr-2"></i>Vip1s </span>
+                            <span class="text-white"><i class="fa fa-star mr-2"></i>17 <small>Anos</small></span>
+                        </div>
+                    </div>
+                    <div class="w-100 bg-white text-center p-4" >
+                        <a class="btn btn-primary" href="https://instagram.com/lleticiafreittas?igshid=YmMyMTA2M2Y=">Instagram</a>
                     </div>
                 </div>
             </div>
@@ -257,65 +317,56 @@
         <div class="container py-5">
             <div class="section-title text-center position-relative mb-5">
                 <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Site</h6>
-                <h1 class="display-4">Dsenvolvedores</h1>
+                <h1 class="display-4">Desenvolvedores</h1>
             </div>
             <div class="owl-carousel team-carousel position-relative" style="padding: 0 30px;">
                 <div class="team-item">
-                    <img class="img-fluid w-100" src="img/lucas.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/lucas.jpeg" alt="">
                     <div class="bg-light text-center p-4">
                         <h5 class="mb-3">Lucas Alves Rodrigues</h5>
                         <p class="mb-2">Lider da equipe, Analista e Desenvolvedor Front-end</p>
                         <div class="d-flex justify-content-center">
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="team-item">
-                    <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/romim.jpeg" alt="">
                     <div class="bg-light text-center p-4">
                         <h5 class="mb-3">Romulo Lima Fonseca</h5>
                         <p class="mb-2">Analista de dados e Desenvolvedor Back-end</p>
                         <div class="d-flex justify-content-center">
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="team-item">
-                    <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/joabson.jpeg" alt="">
                     <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
+                        <h5 class="mb-3">Joabson Matos</h5>
+                        <p class="mb-2">Usuário Tester</p>
                         <div class="d-flex justify-content-center">
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
                             <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="team-item">
-                    <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
+                    <img class="img-fluid w-100" src="img/cleidi.jpeg" alt="">
                     <div class="bg-light text-center p-4">
-                        <h5 class="mb-3">Instructor Name</h5>
-                        <p class="mb-2">Web Design & Development</p>
+                        <h5 class="mb-3">Cleidiane Freitas</h5>
+                        <p class="mb-2">Lider da equipe de desenvolvimento Sisvote</p>
                         <div class="d-flex justify-content-center">
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="mx-1 p-1" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="mx-1 p-1" href="https://instagram.com/cleidefreitaas_?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>

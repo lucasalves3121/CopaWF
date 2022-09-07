@@ -199,21 +199,19 @@
                         <a class="dropdown-item">
                           <strong>See All Alerts</strong>
                           <i class="fa fa-angle-right"></i>
-                        </a>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
         <!-- /top navigation -->
-        </div>
+        <!-- /top navigation -->
         @yield('content')
-      </div>
-    </div>
-
-
+  
 
 @yield('modals')
     <!-- jQuery -->

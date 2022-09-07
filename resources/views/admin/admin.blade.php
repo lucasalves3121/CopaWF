@@ -17,7 +17,7 @@
             <div class="row" style="display: block;">
               <div class="col-md-6 col-sm-6  ">
                 <div class="x_panel">
-                  <div class="x_title">
+                  <div class="x_title table-responsive">
                     <h2>Grupo A<small>Futsal MAsculino</small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
@@ -28,7 +28,7 @@
                     </ul>
                     <div class="clearfix"></div>
                   </div>
-                  <div class="x_content">
+                  <div class="x_content table-responsive">
 
                     <table class="table">
                       <thead>
@@ -71,7 +71,7 @@
               <div class="row" style="display: block;">
               <div class="col-md-6 col-sm-6  ">
                 <div class="x_panel">
-                  <div class="x_title">
+                  <div class="x_title table-responsive" >
                     <h2>Grupo B<small>Futsal Masculino</small></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
@@ -82,7 +82,7 @@
                     </ul>
                     <div class="clearfix"></div>
                   </div>
-                  <div class="x_content">
+                  <div class="x_content table-responsive">
 
                     <table class="table">
                       <thead>

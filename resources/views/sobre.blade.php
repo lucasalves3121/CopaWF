@@ -74,7 +74,7 @@ Acreditando sempre em "Uma luta por dia", transformou sua coragem e esforço na 
                         <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">New Killers</h6>
                         <h1 class="display-4">Wesley Ferreira - 7</h1>
                     </div>
-                    <p class="mb-4 pb-2">Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet.</p>
+                    <p class="mb-4 pb-2">Wesley Ferreira foi um dos idealizadores do time New Killers, criado em 2016 pelos alunos do curso Técnico em Informática (2016-2018). Sua personalidade na equipe era marcante, a ponto de não ser possível imaginar o grupo sem sua presença e sem o seu enorme potencial.</p>
                     <div class="d-flex mb-3">
                         <div class="btn-icon bg-primary mr-4">
                             <i class="fa fa-2x fa-graduation-cap text-white"></i>
@@ -85,7 +85,7 @@ Acreditando sempre em "Uma luta por dia", transformou sua coragem e esforço na 
                         </div>
                     </div>
                     <div class="d-flex mb-3">
-                        <div class="btn-icon bg-secondary mr-4">
+                        <div class="btn-icon bg-primary mr-4">
                             <i class="fa fa-2x fa-certificate text-white"></i>
                         </div>
                         <div class="mt-n1">
@@ -94,7 +94,7 @@ Acreditando sempre em "Uma luta por dia", transformou sua coragem e esforço na 
                         </div>
                     </div>
                     <div class="d-flex">
-                        <div class="btn-icon bg-warning mr-4">
+                        <div class="btn-icon bg-primary mr-4">
                             <i class="fa fa-2x fa-book-reader text-white"></i>
                         </div>
                         <div class="mt-n1">

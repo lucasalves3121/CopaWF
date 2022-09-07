@@ -6,8 +6,10 @@
 <div class="container col-lg-6">
     <table class="table table-sm table-dark">
   <thead>
-    
-  <h1>Futsal Feminino</h1>
+
+    <table class="table table-sm table-dark">
+  <thead>    
+  <h1>Grupo A | Futsal Feminino</h1>
     <tr>
       <th scope="col">Col.</th>
       <th scope="col">Clube</th>
@@ -20,7 +22,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr class="bg-success">
+    <tr class="bg-primary">
       <th scope="row">1</th>
       <td>Improvaveis</td>
       <td>3</td>
@@ -30,7 +32,7 @@
       
       <td>@mdo</td>
     </tr>
-    <tr class="bg-danger">
+    <tr class="bg-primary">
       <th scope="row">2</th>
       <td>Clube</td>
       <td>Thornton</td>
@@ -50,5 +52,9 @@
     </tr>
   </tbody>
 </table>
+
+</div>
+</div>
+  
 </div>
 @endsection

@@ -4,7 +4,6 @@
 
 @section("content")
 
-        <!-- page content -->
         <div class="right_col" role="main">
         @include('components.show-error')
 
@@ -12,7 +11,6 @@
           <br />
 
 
-            <div class="clearfix"></div>
 
             <div class="mb-5">
                 <form action="{{ route('groups.draw') }}" class="row col-6" method="POST">
@@ -25,12 +23,14 @@
             </div>
 
 
-                <div class="row" style="display: block;">
-             @foreach($groups as $group)
-                    <div class="col-md-6 col-sm-6  ">
-                        <div class="x_panel">
-                            <div class="x_title">
-                                <h2>Grupo {{ $group->group_letter }}<small> {{ $group->modality_name }} </small></h2>
+
+          <div class="">
+            @foreach($groups as $group)
+            <div class="clearfix">
+              <div class="col-md-6 col-sm-6  ">
+                <div class="x_panel">
+                  <div class="x_title">
+                                <h2>Grupo {{ $group->group_letter }}<small>{{ $group->modality_name }}</small></h2>
                                 <ul class="nav navbar-right panel_toolbox">
                                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                                     </li>
@@ -40,7 +40,7 @@
                                 </ul>
                                 <div class="clearfix"></div>
                             </div>
-                            <div class="x_content">
+                            <div class="x_content table-responsive">
                                 <table class="table">
                                     <thead>
                                     <tr>
