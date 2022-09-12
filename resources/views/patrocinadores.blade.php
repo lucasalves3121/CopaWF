@@ -318,12 +318,46 @@
       <a href="https://instagram.com/opengraficacompleta?igshid=YmMyMTA2M2Y=" class="btn btn-primary">Instagram</a>
      </div>
     </div>
-  </div><div class="col-lg-3">
+  </div>
+  <div class="col-lg-3">
     <div class="card">
       <img src="../img/patro/45.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
       <a href="https://instagram.com/kaedbrindes?igshid=YmMyMTA2M2Y=" class="btn btn-primary">Instagram</a>
      </div>
+    </div>
+    </div>
+    <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/46.png" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="https://instagram.com/vivaflorinda?igshid=YmMyMTA2M2Y=" class="btn btn-primary">Instagram</a>
+     </div>
+    </div>
+    </div>
+    <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/47.png" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="https://instagram.com/amofamel?igshid=YmMyMTA2M2Y=" class="btn btn-primary">Instagram</a>
+     </div>
+    </div>
+    </div>
+    <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/48.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="https://instagram.com/usesigotranquilo?igshid=YmMyMTA2M2Y=" class="btn btn-primary">Instagram</a>
+     </div>
+    </div>
+    </div>
+    <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/49.png" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="tel:(85) 8609-5050" class="btn btn-primary">Telefone</a>
+     </div>
+    </div>
     </div>
 </div>
 </div>

@@ -29,7 +29,7 @@
 
 <body>
      <!-- Topbar Start -->
-     <div class="container-fluid bg-dark">
+     <div class="container-fluid bg-primary">
         <div class="row py-2 px-lg-5">
             <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center text-white">
@@ -93,7 +93,7 @@
                         <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sistema de Votação</a>
                         <div class="dropdown-menu m-0">
-                            <a href="https://www.sisvotejmf.com/Sisvote2/Login/logincopinha.php" class="dropdown-item">Miss e Muso</a>
+                            <a href="https://www.sisvotejmf.com/Sisvote2/Login/logincopinha.php" class="dropdown-item">Musa e Muso</a>
                             <a href="https://www.sisvotejmf.com/Sisvote2/Login/logingremio.php" class="dropdown-item">Brasão Copa WF</a>
                         </div>
                         </div>

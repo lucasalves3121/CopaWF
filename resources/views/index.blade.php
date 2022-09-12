@@ -47,33 +47,33 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="section-title position-relative mb-4">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Em homenagem</h6>
+                        <h6 class="d-inline-block position-relative text-dark text-uppercase pb-2s">Em homenagem</h6>
                         <h1 class="display-4">Homenagem a Wesley Ferreira</h1>
                     </div>
-                    <p style="text-align:justify">Wesley foi um jovem incrível , cheio de vida , sonhos e um marido espetacular . Ele era vida , mesmo por tão pouco tempo (apenas 21 anos ) que ele ficou aqui na terra ele soube viver essa vida … intenso e grandioso . Parece que você era um anjo que estava por um tempo aqui na terra e que Deus estava com muita saudade e teve que te recolher de volta …. Wesley foi um exemplo de compromisso, solidariedade, amizade e amor. Acolher esse sentimento é de muita dor e o que conforta é saber que aqui na terra você tirou lindos sorrisos de amigos,familiares e companheira , sua energia positiva e verdadeira era forte demais e ela faz morada dentro de nós . Te Amamos 🖤</p>
+                    <p style="text-align:justify">Wesley foi um jovem incrível , cheio de vida , sonhos e um marido espetacular . Ele era vida , mesmo por tão pouco tempo (apenas 21 anos ) que ele ficou aqui na terra ele soube viver essa vida … intenso e grandioso . Parece que você era um anjo que estava por um tempo aqui na terra e que Deus estava com muita saudade e teve que te recolher de volta …. Wesley foi um exemplo de compromisso, solidariedade, amizade e amor. Acolher esse sentimento é de muita dor e o que conforta é saber que aqui na terra você tirou lindos sorrisos de amigos, familiares e companheira , sua energia positiva e verdadeira era forte demais e ela faz morada dentro de nós . Te Amamos 🖤</p>
                     <div class="row pt-3 mx-0">
                         <div class="col-3 px-0">
                             <div class="bg-primary text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">2016</h1>
-                                <h6 class="text-uppercase text-white">Turma<span class="d-block">informática</span></h6>
+                                <h6 class="text-uppercase text-white">Informática<span class="d-block"></span></h6>
                             </div>
                         </div>
                         <div class="col-3 px-0">
                             <div class="bg-primary text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">22</h1>
-                                <h6 class="text-uppercase text-white">Dia<span class="d-block">Pacajus</span></h6>
+                                <h6 class="text-uppercase text-white">Data<span class="d-block"></span></h6>
                             </div>
                         </div>
                         <div class="col-3 px-0">
                             <div class="bg-primary text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">05</h1>
-                                <h6 class="text-uppercase text-white">Mês<span class="d-block">Ceará</span></h6>
+                                <h6 class="text-uppercase text-white">de<span class="d-block"></span></h6>
                             </div>
                         </div>
                         <div class="col-3 px-0">
                             <div class="bg-primary text-center p-4">
                                 <h1 class="text-white" data-toggle="counter-up">2000</h1>
-                                <h6 class="text-uppercase text-white">Ano<span class="d-block">Geminiano</span></h6>
+                                <h6 class="text-uppercase text-white">Nascimento<span class="d-block"></span></h6>
                             </div>
                         </div>
                     </div>
