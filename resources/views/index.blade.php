@@ -90,7 +90,7 @@
             <div class="row">
                 <div class="col-lg-7 my-5 pt-5 pb-lg-5">
                     <div class="section-title position-relative mb-4">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Copa WF</h6>
+                        <h6 class="d-inline-block position-relative text-dark text-uppercase pb-2">Copa WF</h6>
                         <h1 class="display-4">Modalidades</h1>
                     </div>
                     <p class="mb-4 pb-2">Considerada um dos maiores eventos poliesportivos da cidade de Pacajus-Ce, a copa  da Escola Estadual de Educação Profissional José Maria Falcão, tem seu legado passado ano pós ano, sempre impressionando com sua vasta organização, abertura, esportes e premiações.</p>
@@ -149,7 +149,7 @@
         <div class="row mx-0 justify-content-center pt-5">
             <div class="col-lg-6">
                 <div class="section-title text-center position-relative mb-4">
-                    <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Desfile</h6>
+                    <h6 class="d-inline-block position-relative text-dark text-uppercase pb-2">Desfile</h6>
                     <h1 class="display-4"><strong>Musa e Muso copa W.F</strong></h1>
                     <h3>A beleza externa e interna da edição.</h3>
                 </div>
@@ -316,7 +316,7 @@
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="section-title text-center position-relative mb-5">
-                <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Site</h6>
+                <h6 class="d-inline-block position-relative text-dark text-uppercase pb-2">Site</h6>
                 <h1 class="display-4">Desenvolvedores</h1>
             </div>
             <div class="owl-carousel team-carousel position-relative" style="padding: 0 30px;">
