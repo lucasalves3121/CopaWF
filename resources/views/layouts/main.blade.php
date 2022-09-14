@@ -25,6 +25,38 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="/../css/style.css" rel="stylesheet">
     <link href="/../css/style.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<div class="container">
+  
+  <!-- Modal -->
+  <div class="modal  show" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        
+      <div class="modal-header">
+        <h5 class="modal-title">Você é nosso Convidado</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+      <div class="col-md-12"><img class="d-block w-100" src="img/modalconv.jpg" /></div>
+    </div>
+            
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+</div>
 </head>
 
 <body>
@@ -187,9 +219,8 @@ Sejam bem-vindos ao mundo da copa W.F!</p>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    
     <script src="js/icons.js" crossorigin="anonymous"></script>
-
+                                
     <!-- Template Javascript -->
     <script src="js/main.js"></script> 
 </body>

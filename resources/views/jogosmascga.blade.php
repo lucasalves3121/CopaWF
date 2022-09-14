@@ -77,43 +77,69 @@
                     <h2 class="mb-3">Lideres da Copa</h2>
                     <div class="owl-carousel related-carousel position-relative" style="padding: 0 30px;">
                         <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
-                            <img class="img-fluid" src="img/courses-1.jpg" alt="">
+                            <img class="img-fluid" src="img/times/1.jpg" alt="">
                             <div class="courses-text">
-                                <h4 class="text-center text-white px-3">Web design & development courses for
-                                    beginners</h4>
+                                <h4 class="text-center text-white px-3">NEW KILLERS</h4>
                                 <div class="border-top w-100 mt-3">
                                     <div class="d-flex justify-content-between p-4">
-                                        <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                                        <span class="text-white"><i class="fa fa-star mr-2"></i>4.5
-                                            <small>(250)</small></span>
+                                        
+                                            <small></small></span>
                                     </div>
                                 </div>
                             </div>
                         </a>
                         <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
-                            <img class="img-fluid" src="img/courses-2.jpg" alt="">
+                            <img class="img-fluid" src="img/times/2.jpEg" alt="">
                             <div class="courses-text">
-                                <h4 class="text-center text-white px-3">Web design & development courses for
-                                    beginners</h4>
+                                <h4 class="text-center text-white px-3">FC APOSENTADOS</h4>
                                 <div class="border-top w-100 mt-3">
                                     <div class="d-flex justify-content-between p-4">
-                                        <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                                        <span class="text-white"><i class="fa fa-star mr-2"></i>4.5
-                                            <small>(250)</small></span>
+                                        
+                                            <small></small></span>
                                     </div>
                                 </div>
                             </div>
                         </a>
                         <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
-                            <img class="img-fluid" src="img/courses-3.jpg" alt="">
+                            <img class="img-fluid" src="img/times/3.jpEg" alt="">
                             <div class="courses-text">
-                                <h4 class="text-center text-white px-3">Web design & development courses for
-                                    beginners</h4>
+                                <h4 class="text-center text-white px-3">AS PATY<PAram></PAram></h4>
                                 <div class="border-top w-100 mt-3">
                                     <div class="d-flex justify-content-between p-4">
-                                        <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                                        <span class="text-white"><i class="fa fa-star mr-2"></i>4.5
-                                            <small>(250)</small></span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
+                            <img class="img-fluid" src="img/times/4.jpEg" alt="">
+                            <div class="courses-text">
+                                <h4 class="text-center text-white px-3">AS PATY<PAram></PAram></h4>
+                                <div class="border-top w-100 mt-3">
+                                    <div class="d-flex justify-content-between p-4">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
+                            <img class="img-fluid" src="img/times/5.jpEg" alt="">
+                            <div class="courses-text">
+                                <h4 class="text-center text-white px-3">AS PATY<PAram></PAram></h4>
+                                <div class="border-top w-100 mt-3">
+                                    <div class="d-flex justify-content-between p-4">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
+                            <img class="img-fluid" src="img/times/6.jpEg" alt="">
+                            <div class="courses-text">
+                                <h4 class="text-center text-white px-3">AS PATY<PAram></PAram></h4>
+                                <div class="border-top w-100 mt-3">
+                                    <div class="d-flex justify-content-between p-4">
+                                        
                                     </div>
                                 </div>
                             </div>
