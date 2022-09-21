@@ -50,7 +50,7 @@
             
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button accesskey="f" type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
       </div>
     </div>
   </div>
@@ -119,7 +119,7 @@
                         <div class="dropdown-menu m-0">
                             <a href="classfutmasc" class="dropdown-item">Futsal Masculino</a>
                             <a href="classfutfem    " class="dropdown-item">Futsal Feminino</a>
-                            <a href="team.html" class="dropdown-item">Voley</a>
+                            <a href="classvolei" class="dropdown-item">Voley</a>
                         </div>
                         </div>
                         <div class="nav-item dropdown">

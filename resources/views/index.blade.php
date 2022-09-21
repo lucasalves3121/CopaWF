@@ -4,8 +4,11 @@
 
 @section("content")
 
-
-
+<script type="text/javascript">
+    $(window).on('load',function(){
+        $('#myModal').modal('show');
+    });
+</script>
     <!-- Header Start -->
     <div class="jumbotro jumbotron-fluid position-relative overlay-bottom" style="margin-bottom: 30px;">
         <div class="contai">      
@@ -96,39 +99,47 @@
                     <p class="mb-4 pb-2">Considerada um dos maiores eventos poliesportivos da cidade de Pacajus-Ce, a copa  da Escola Estadual de Educação Profissional José Maria Falcão, tem seu legado passado ano pós ano, sempre impressionando com sua vasta organização, abertura, esportes e premiações.</p>
                     <div class="d-flex mb-3">
                         <div class="btn-icon bg-primary mr-4">
+                        <a href="futsal" style="text-decoration:none; color:#808080;">
                             <i class="fa fa-2x fa-solid fa-futbol text-white"></i>
                         </div>
-                        <div class="mt-n1">
+                        <div class="mt-n1">                            
                             <h4>Futsal</h4>
                             <p>Uma modalidade esportiva que foi adaptada do futebol de campo para as quadras.</p>
                         </div>
+                        </a>
                     </div>
                     <div class="d-flex mb-3">
                         <div class="btn-icon bg-primary mr-4">
+                        <a href="volei" style="text-decoration:none; color:#808080;">
                             <i class="fa fa-2x fa-solid fa-volleyball text-white"></i>
                         </div>
                         <div class="mt-n1">
                             <h4>Volei</h4>
                             <p>Esporte praticado entre duas equipes numa quadra retangular. Ela é dividida por uma rede colocada verticalmente sobre a linha central.</p>
                         </div>
+                        </a>
                     </div>
                     <div class="d-flex mb-3">
                         <div class="btn-icon bg-primary mr-4">
+                        <a href="futmesa" style="text-decoration:none; color:#808080;">
                             <i class="fa fa-2x fa-table-tennis-paddle-ball text-white"></i>
                         </div>
                         <div class="mt-n1">
                             <h4> Fut Mesa</h4>
                             <p>é o esporte que vem conquistando o Brasil nos últimos anos, visto que a modalidade mistura futebol, vôlei e tênis de mesa. </p>
                         </div>
+                        </a>
                     </div>
                     <div class="d-flex">
                         <div class="btn-icon bg-primary mr-4">
+                        <a href="carimba" style="text-decoration:none; color:#808080;">
                             <i class="fa fa-2x fa-brands fa-joget text-white"></i>
                         </div>
                         <div class="mt-n1">
                             <h4>Carimba</h4>
                             <p class="m-0">Um esporte coletivo em que os jogadores tentam acertar os oponentes com uma ou mais bolas, evitando serem atingidos. </p>
                         </div>
+                        </a>
                     </div>
                     
                 </div>

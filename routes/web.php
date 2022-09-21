@@ -95,5 +95,20 @@ Route::get('/images', function () {
 Route::get('/video', function () {
     return view('video');
 });
+Route::get('/futsal', function () {
+    return view('futsal');
+});
+Route::get('/volei', function () {
+    return view('volei');
+});
+Route::get('/futmesa', function () {
+    return view('futmesa');
+});
+Route::get('/carimba', function () {
+    return view('carimba');
+});
+Route::get('/classvolei', function () {
+    return view('classvolei');
+});
 
 require __DIR__.'/auth.php';
