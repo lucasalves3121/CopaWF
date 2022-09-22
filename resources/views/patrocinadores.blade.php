@@ -387,6 +387,124 @@
       <a href="" class="btn btn-primary">Instagram</a></div>
     </div>
   </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/50.png" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="https://instagram.com/moranguinhosupermercados?igshid=YzA2ZDJiZGQ=" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/51.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="tel:(85) 3348-0344" class="btn btn-primary">Telefone</a></div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/52.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="https://instagram.com/loja_bellagarota21?igshid=YzA2ZDJiZGQ=" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/53.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="https://instagram.com/cineminhaaa?igshid=YzA2ZDJiZGQ=" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/54.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="https://instagram.com/cineminhaaa?igshid=YzA2ZDJiZGQ=" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div><div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/55.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/56.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="https://instagram.com/cineminhaaa?igshid=YzA2ZDJiZGQ=" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/57.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="https://instagram.com/cineminhaaa?igshid=YzA2ZDJiZGQ=" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/58.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/59.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="h" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/60.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="https://instagram.com/mersondjoficial?igshid=YzA2ZDJiZGQ=" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/61.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/62.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/63.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/64.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="h" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/65.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="card">
+      <img src="../img/patro/66.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="" class="btn btn-primary">Instagram</a></div>
+    </div>
+  </div>
 </div>
 </div>
 </div>
