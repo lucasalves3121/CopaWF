@@ -19,34 +19,51 @@
 
     </tr>
   </thead>
-  <tbody>
+  
     <tr class="bg-primary">
       <th scope="row">1</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      
-      <td></td>
+      <td>IMPROVÁVEL</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>      
+      <td>0</td>
     </tr>
     <tr class="bg-primary">
       <th scope="row">2</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>LDB</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr class="bg-primary">
       <th scope="row">3</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>GALÁTICOS</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr class="bg-primary">
+      <th scope="row">3</th>
+      <td>AS PATY</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr class="bg-primary">
+      <th scope="row">3</th>
+      <td>FALCÕES</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
   </tbody>
 </table>
@@ -67,31 +84,47 @@
   <tbody>
     <tr class="bg-primary">
       <th scope="row">1</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      
-      <td></td>
+      <td>NEW KILLERS</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr class="bg-primary">
       <th scope="row">2</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>APOSENTADOS</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr class="bg-primary">
       <th scope="row">3</th>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>LA MAFIA</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr class="bg-primary">
+      <th scope="row">3</th>
+      <td>ANONYMOUS</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr><tr class="bg-primary">
+      <th scope="row">3</th>
+      <td>VIPS</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
   </tbody>
 </table>
